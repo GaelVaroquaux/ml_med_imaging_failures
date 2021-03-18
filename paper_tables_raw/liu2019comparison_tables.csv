@@ -1,0 +1,864 @@
+"",Subspecialty,Participants,,,
+"",,Inclusion criteria,Exclusion criteria,"Mean age (SD; range),",Percentage of female Number of participants
+"",,,,years,participants represented by the
+"",,,,,training data
+Abbasi-Sureshjani et al,Ophthalmology,NR,NR,NR (NR; 40–76),51% NR
+"(2018)24",,,,,
+Adams et al (2019)25,Trauma and,Emergency cases of surgically,Other radiological pathology,NR,NR NR
+"",orthopaedics,confirmed neck of femur,present (excluding,,
+"",,fractures,osteoporosis or osteoarthritis);,,
+"",,,metal-wear in fractured or,,
+"",,,unfractured hip,,
+Ardila et al (2019)19,Lung cancer,Lung cancer screening patients,Unmatched scans to radiology,NR,NR 12 504
+"",,,reports; patients >1 year of,,
+"",,,follow-up,,
+Ariji et al (2019)26,Oral cancer,Patients with contrast-,NR,Median 63 (NR; 33–95),47% NR
+"",,enhanced CT and dissection of,,,
+"",,cervical lymph nodes,,,
+Ayed et al (2015)27,Breast cancer,NR,NR,NR (NR; 24–88),100% NR
+Becker et al (2017)28,Breast cancer,Mammograms with biopsy,Surgery before first,57 (9; 32–85),100% 2038
+"",,proven malignant lesions,mammogram; metastatic,,
+"",,,malignancy involving breasts;,,
+"",,,cancer >2 years on external,,
+"",,,mammogram; in non-,,
+"",,,"malignant cases, patients with",,
+"",,,<2 years of follow-up,,
+Becker et al (2018)20,Breast cancer,Mammograms with biopsy,Normal breast ultrasound or,53 (15; 15–91),100% NR
+"",,proven malignant lesions,"benign lesions, except if prior",,
+"",,,breast-conserving surgery was,,
+"",,,done; no radiological follow-up,,
+"",,,>2 years or histopathology,,
+"",,,proof,,
+Bien et al (2018)29,Trauma and,NR,NR,38 (NR; NR),41% 1199
+"",orthopaedics,,,,
+Brinker et al (2019)30,Dermatological,NR,NR,NR,NR NR
+"",cancer,,,,
+Brown et al (2018)21,Ophthalmology,NR,Stage 4–5 retinopathy of,NR,NR 898
+"",,,prematurity,,
+Burlina et al (2017)31,Ophthalmology,NR,NR,NR,NR NR
+Burlina et al (2018)32,Ophthalmology,NR,NR,NR,NR 4152
+Burlina et al (2018)33,Ophthalmology,NR,NR,NR,NR 4152
+Byra et al (2019)34,Breast cancer,Masses with images in at least,Inconclusive pathology;,NR,NR NR
+"",,two ultrasound views,artifacts or known cancers,,
+Cao et al (2019)35,Urology,Patients undergoing robotic,Patients with prior,NR,NR NR
+"",,assisted laparoscopic,radiotherapy or hormonal,,
+"",,prostatectomy with,therapy,,
+"",,pre-operative MRI scans,,,
+Chee et al (2019)36,Trauma and,Patients aged ≥16 years with,>30 days between,48 (15; NR),NR NR
+"",orthopaedics,hip pain with osteonecrosis of,anteroposterior hip x-ray and,,
+"",,the femoral head on MRI,hip MRI; history of hip,,
+"",,,operation with osseous,,
+"",,,abnormality in femoral head,,
+"",,,and neck; insufficient MRI and,,
+"",,,poor radiograph quality,,
+Choi et al (2019)37,Breast cancer,Patients aged ≥20 years with,Undiagnosed breast mass and,Median 47 (NR; 42–54),NR NR
+"",,breast masses on ultrasound,low-quality images,,
+Choi et al (2018)38,Hepatology,Training set: pathologically,Tumour >5 cm; prior liver,Training dataset:,Training dataset: 7461
+"",,confirmed cases,resection or transplant;,44 (15; 18–83),28%
+"",,External validation set:,anticancer treatment within,Test dataset 1:,Total test datasets:
+"",,pathologically confirmed cases,6 months of liver pathology;,48 (14; NR),43%
+"",,with no previous liver surgery,lymphoma or amyloidosis,Test dataset 2:,
+"",,and CT acquired within,,56 (10; NR),
+"",,5 months of examination,,Test dataset 3:,
+"",,,,53 (15; NR),
+"",,,,,(Table 1 continues on next page)
+Subspecialty,Participants,,,
+"",Inclusion criteria,Exclusion criteria,"Mean age (SD; range),",Percentage of female Number of participants
+"",,,years,participants represented by the
+"",,,,training data
+"(Continued from previous page)",,,,
+Ciompi et al (2017)39 Respiratory disease,Baseline CT scans from the,Lesion diameter <4 mm,NR,NR 943
+"",Multicentric Italian Lung,,,
+"",Detection trial,,,
+Codella et al (2017)40 Dermatological,NR,NR,NR,NR NR
+cancer,,,,
+Coudray et al (2018)41 Lung cancer,NR,NR,NR,NR NR
+De Fauw et al (2018)42 Ophthalmology,All routine OCT images,Conditions with <10 cases,NR,Training dataset: 7621
+"",,,,54%
+"",,,,Test dataset: 55%
+"Ding et al (2019)43 Neurology,",Patients participating in the,Patients with no PET study,Male: 76 (NR; 55–93),47% 899
+psychiatry,Alzheimer’s Disease,ordered,Female:,
+"",Neuroimaging Iinitiative,,75 (NR; 55–96),
+"",clinical trial,,,
+Dunnmon et al (2019)44 Respiratory disease,NR,Images which are not,NR,NR 200 000
+"",,anteroposterior or,,
+"",,posteroanterior views,,
+Ehteshami Bejnordi et al Breast cancer,Patients having breast cancer,Isolated tumour cells in a,NR,100% NR
+"(2017)45",surgery,sentinel lymph node,,
+Esteva et al (2017)46 Dermatological,NR,NR,NR,NR NR
+cancer,,,,
+Fujioka et al (2019)47 Breast cancer,Breast ultrasound of benign or,Patients on hormonal therapy,Training dataset:,NR 237
+"",malignant masses confirmed,or chemotherapy; patients,55 (13; NR),
+"",by pathology; patients with,aged <20 years,Test dataset:,
+"",minimum 2-year follow-up,,57 (15; NR),
+Fujisawa et al (2019)48 Dermatological,NR,NR,NR,NR 1842
+cancer,,,,
+Gómez-Valverde Ophthalmology,Aged 55–86 years in glaucoma,Poor-quality images,NR,NR NR
+et al (2019)49,detection campaign,,,
+Grewal et al (2018)50 Trauma and,NR,NR,NR,NR NR
+orthopaedics,,,,
+Haenssle et al (2018)51 Dermatological,NR,NR,NR,NR NR
+cancer,,,,
+Hamm et al (2019)52 Liver cancer,"Untreated liver lesions, or",Atypical imaging features;,57 (14; NR),48% 296
+"",treated lesions that showed,patients aged <18 years,,
+"","progression, or recurrence post",,,
+"",1 year local or regional therapy,,,
+Han et al (2018)53 Dermatological,All images from datasets,"For the Asan dataset,",Asan 1: 47 (23; NR),Asan 1: 55% NR
+cancer,,postoperative images were,Asan 2: 41 (21; NR),Asan 2: 57%
+"",,excluded,Atlas: NR,Atlas: NR
+"",,,MED–NODE: NR,MED-NODE: NR
+"",,,Hallym: 68 (13; NR),Hallym: 52%
+"",,,Edinburgh: NR,Edinburgh: NR
+Han et al (2018)54 Dermatological,"For Inje, Hallym, and Seoul",Inadequate images and images,Asan 1: 41 (22; NR),Asan 1: 55% NR
+cancer,datasets: onychomycosis:,of uncertain diagnosis,Asan 2: 46 (20; NR),Asan 2: 59%
+"","positive potassium, oxygen,",,Inje 1: 48 (23; NR),Inje 1: 56%
+"",and hydrogen test or fungus,,Inje 2: 54 (20; NR),Inje 2: 48%
+"",culture result; or successful,,Hallym: 39 (15; NR),Hallym: 47%
+"",treatment with antifungal,,Seoul: 51 (20; NR),Seoul: 54%
+"",drugs; nail dystrophy: negative,,,
+"","potassium, oxygen, and",,,
+"",hydrogen test or culture result;,,,
+"",unresponsiveness to antifungal,,,
+"",medication; or responsiveness,,,
+"",to a triamcinolone intralesional,,,
+"",injection,,,
+Hwang et al (2018)55 Respiratory disease,Active pulmonary tuberculosis,Non-parenchymal tuberculosis,51 (16; NR),82% NR
+"",≤1 month from treatment,and non-tuberculosis chest,,
+"",initiation,x-rays,,
+"",,,,(Table 1 continues on next page)
+Subspecialty,Participants,,,
+"",Inclusion criteria,Exclusion criteria,"Mean age (SD; range),",Percentage of female Number of participants
+"",,,years,participants represented by the
+"",,,,training data
+"(Continued from previous page)",,,,
+Hwang et al (2019)56 Ophthalmology,Age-related macular,Low-resolution images or,NR,NR NR
+"",degeneration cases presenting,improper format,,
+"",to the hospital,,,
+Hwang et al (2019)57 Respiratory disease,Cases of clinically or,Chest x-rays >3 lesions for lung,Training dataset:,Training dataset: NR
+"",microbiologically confirmed,cancer; pneumothorax chest,51 (16; NR) normal,55%
+"",pneumonia or clinically,x-rays with drainage catheter or,images; 62 (15; NR) for,Test dataset: 38%
+"",reported pneumothorax; cases,subcutaneous emphysema,abnormal images,
+"",of pulmonary tuberculosis,,,
+"",(where a chest x-ray was,,,
+"",completed within 2 weeks of,,,
+"",treatment initiation),,,
+"Kermany et al (2018)58 Ophthalmology,",OCT: routine OCTs from local,OCT: none,Choroidal,Choroidal OCT: 4686
+respiratory disease,databases for choroidal,Chest x-rays: NR,neovascularisation 1:,neovascularisation 1: Chest x-ray: 5856
+"","neovascularisation, DMO,",,83 (NR; 58–97),46%
+"","drusen, and normal images",,DMO 2: 57 (NR; 20–90),DMO 2: 62%
+"",Chest x-rays: retrospective,,Drusen:,Drusen: 56%
+"",cohort of 1–5 year olds,,82 (NR; 40–95),Normal: 41%
+"",,,Normal:,X-ray: NR
+"",,,60 (NR; 21–68),
+"",,,X-ray: NR,
+Kim et al (2012)59 Breast cancer,Patients with solid mass on,Breast Imaging Reporting and,"44 (NR, 22–70)",NR 70
+"",ultrasound,"Data System: 0, 1, and 6",,
+Kim et al (2018)60 Trauma and,Tuberculous or pyogenic,Unconfirmed diagnosis; no,Tuberculous,Tuberculous NR
+orthopaedics,spondylitis,pre-diagnostic MRI; early,spondylitis:,spondylitis: 49%
+"",,postoperative infection and,59 (NR; 38–71),Pyogenic spondylitis:
+"",,cervical infectious spondylitis,Pyogenic spondylitis:,40%
+"",,,64 (NR; 56–72),
+Kim et al (2019)61 Maxillofacial,Age >16 years with suspected,"History of sinus surgery,",Training dataset:,Training dataset: NR
+surgery,maxillary sinusitis with a,"fracture, or certain tumours",47 (20; NR),54%
+"",Waters’ view plain film,involving the maxillary sinus,Test dataset:,Test dataset:
+"",radiographs,,internal validation:,internal validation:
+"",,,54 (21; NR);,56%;
+"",,,external validation:,external validation:
+"",,,"temporal 49 (20; NR),","temporal 47%,"
+"",,,geographical:,geographical 54%
+"",,,53 (18; NR),
+Kise et al (2019)62 Rheumatology,Sjogren’s syndrome,NR,Sjogren’s syndrome:,Sjogren’s syndrome: 40
+"",,,67 (NR; NR),4%
+"",,,Control: 66 (NR; NR),Control: 97%
+Ko et al (2019)63 Thyroid cancer,Ultrasound and subsequent,NR,Training dataset:,Training dataset: NR
+"","thyroidectomy, nodules 1–2 cm",,48 (13; 12–79),82%
+"",with correlating pathology,,Test dataset:,Test dataset: 85%
+"",results,,50 (12; NR),
+Kumagai et al (2019)64 Oesophageal cancer,NR,NR,NR,NR 240
+Lee et al (2019)65 Trauma and,Training and test data:,"History of brain surgery, skull",NR,NR NR
+orthopaedics,non-contrast head CT with or,"fracture, intracranial tumour,",,
+"",without acute ICH,"intracranial device, cerebral",,
+"",Prospective test data:,"infarct, or non-acute ICH",,
+"",non-contrast head CT in,,,
+"",4 months from the local,,,
+"",hospital’s emergency,,,
+"",department,,,
+Li C et al (2018)66 Nasopharyngeal,Nasopharyngeal endoscopic,Blurred images or images with,Training dataset:,Training dataset: 5557
+cancer,images for screening,incomplete exposure,46 (13; NR),30%
+"",,,Test dataset:,Test dataset: 32%
+"",,,46 (13; NR),Prospective test
+"",,,Prospective test,dataset: 34%
+"",,,dataset: 48 (13; NR),
+"",,,,(Table 1 continues on next page)
+Subspecialty,Participants,,,
+"",Inclusion criteria,Exclusion criteria,"Mean age (SD; range),",Percentage of female Number of participants
+"",,,years,participants represented by the
+"",,,,training data
+"(Continued from previous page)",,,,
+Li X et al (2019)67 Thyroid cancer,Patients aged ≥18 years with,Patients with thyroid cancer,Training dataset:,Training dataset: 42 952
+"",thyroid cancer; patients with,with differing pathological,median,75%
+"",pathological examination and,report,44 (NR; 36–54),Test dataset: internal
+"",negative controls,,Test dataset: internal,validation: 77%;
+"",,,validation: median,external validation 1:
+"",,,47 (NR; 24–41);,78%; external
+"",,,external validation 1:,validation 2: 80%
+"",,,median,
+"",,,51 (NR; 45–59);,
+"",,,external validation 2:,
+"",,,median 50 (NR; 41–59),
+Lin et al (2014)68 Breast cancer,Solid mass on ultrasound,NR,52 (NR; NR),100% NR
+Lindsey et al (2018)69 Trauma and,NR,NR,NR,NR NR
+orthopaedics,,,,
+Long et al (2017)70 Ophthalmology,Routine examinations done as,NR,NR,NR NR
+"",part of the Childhood Cataract,,,
+"",Program of the Chinese,,,
+"","Ministry of Health, and search",,,
+"",engine images matching the,,,
+"","key words “congenital”,",,,
+"","“infant”, “paediatric cataract”,",,,
+"",and “normal eye”,,,
+Lu W et al (2018)71 Ophthalmology,Image containing only one of,Images with other,NR,NR NR
+"",the four abnormalities (serous,abnormalities than the four,,
+"","macular detachment, cystoid",included or co-existence of,,
+"","macular oedema, macular hole,",two abnormalities,,
+"",and epiretinal membrane),,,
+Matsuba et al (2019)72 Ophthalmology,Men aged >70 years and,Unclear images due to vitreous,Control: 77 (5; NR),Control: 28% NR
+"",women aged >77 years,"haemorrhage, astrocytosis, or",Wet age-related,Wet age-related
+"",,strong cataracts; previous,macular degeneration:,macular
+"",,retinal photocoagulation and,76 (82; NR),degeneration: 26%
+"",,other complicating fundus,,
+"",,disease as determined by,,
+"",,retinal specialists,,
+Nakagawa et al (2019)73 Oesophageal cancer,Patients with superficial,Severe oesophagitis;,Median 69,21% NR
+"",oesophageal squamous cell,oesophagus chemotherapy or,(NR; 44–90),
+"",carcinoma with pathologic,radiation history; lesions,,
+"",proof of cancer invasion depth,adjacent to ulcer or ulcer scar,,
+Nam et al (2019)74 Lung cancer,Training: malignant lung,"Nodules ≤5 mm on CT, chest",Female: 52 (NR),Normal: 45% NR
+"",nodules chest x-rays proven by,"x-rays showing ≥3 nodules,",Male: 53 (NR),Abnormal: 42%
+"",histopathology,"lung consolidation, or pleural",,
+"",External validation: chest x-rays,effusion obscuring view,,
+"",with referential normal CTs,,,
+"",performed within 1 month,,,
+Olczak et al (2017)75 Trauma and,NR,NR,NR,NR NR
+orthopaedics,,,,
+Peng et al (2019)76 Ophthalmology,NR,NR,NR,NR 4099
+Poedjiastoeti et al (2018)77 Oral and,Panoramic x-rays of,NR,NR,NR NR
+maxillofacial cancer,ameloblastomas and,,,
+"",keratocystic odontogenic,,,
+"",tumours with known biopsy,,,
+"",results,,,
+Rajpurkar et al (2018)78 Respiratory disease,NR,NR,NR,NR NR
+Raumviboonsuk et al Ophthalmology,NR,Pathologies precluding,61 (11; NR),67% NR
+"(2019)79",,classification of target,,
+"",,"condition, or presence of other",,
+"",,retinal vascular disease,,
+Sayres et al (2019)80 Ophthalmology,NR,NR,NR,NR NR
+"",,,,(Table 1 continues on next page)
+Subspecialty,Participants,,,
+"",Inclusion criteria,Exclusion criteria,"Mean age (SD; range),",Percentage of female Number of participants
+"",,,years,participants represented by the
+"",,,,training data
+"(Continued from previous page)",,,,
+Schlegl et al (2018)22 Ophthalmology,Random sample of age-related,No clear consensus or poor,NR,NR NR
+"","macular degeneration, DMO,",image quality,,
+"",and retinal vein occlusion cases,,,
+Shibutani et al (2019)81 Cardiology,Myocardial perfusion SPECT,NR,72 (9; 50–89),19% NR
+"",within 45 days of coronary,,,
+"",angiography,,,
+Shichijo et al (2017)82 Gastroenterology,A primary care referral for OGD,Helicobacter pylori eradication;,Training dataset:,Training dataset: 735
+"","for epigastric symptoms,",presence or history of gastric,53 (13; NR),55%
+"","barium meal results, abnormal","cancer, ulcer, or submucosal",Test dataset:,Test dataset: 57%
+"","pepsinogen levels, previous",tumour; unclear images,50 (11; NR),
+"","gastroduodenal disease, or",,,
+"",screening for gastric cancer,,,
+Singh et al (2018)83 Respiratory disease,Randomly selected chest x-rays,Lateral radiographs; oblique,NR,NR NR
+"",from the database,views; patients with total,,
+"",,pneumonectomy; patients with,,
+"",,a metal prosthesis,,
+Song et al (2019)84 Thyroid cancer,Patients aged >18 years with,Failure to meet American,Training dataset:,Training dataset: NR NR
+"",total or nearly total,Thyroid Association criteria for,NR (NR; NR),Test dataset: 90%
+"","thyroidectomy or lobectomy,",lesions or nodules,Test dataset:,
+"",with complete preoperative,,57 (16; NR),
+"",thyroid ultrasound images with,,,
+"",surgical pathology examination,,,
+Stoffel et al (2018)85 Breast cancer,Ultrasound scan and,NR,34 (NR; NR),NR NR
+"",histologically confirmed,,,
+"",phyllodes tumour and,,,
+"",fibroadenoma,,,
+Streba et al (2012)86 Hepatological,Patients with suspected liver,NR,58 (NR; 29–89),43% NR
+cancer,masses (with hepatocellular,,,
+"","carcinoma, hypervascular and",,,
+"","hypovascular liver metastases,",,,
+"","hepatic haemangiomas, or",,,
+"",focal fatty changes) who,,,
+"",underwent contrast-enhanced,,,
+"",ultrasound,,,
+Sun et al (2014)87 Cardiology,Patients with paroxysmal atrial,NR,60 (11; 29–81),45% NR
+"",fibrillation or persistent atrial,,,
+"",fibrillation,,,
+Tschandl et al (2019)88 Dermatological,Lesions that had lack of,Mucosal or missing or poor,NR,NR NR
+cancer,"pigment, availability of at least",image cases; equivocal,,
+"",one clinical close-up image or,histopathologic reports; cases,,
+"","one dermatoscopic image, and",with <10 examples in the,,
+"",availability of an unequivocal,training set category,,
+"",histopathologic report,,,
+Urakawa et al (2019)89 Trauma and,All consecutive patients with,Pseudarthrosis after femoral,85 (NR; 29–104),84% NR
+orthopaedics,"intertrochanteric hip fractures,",neck fracture or x-rays showing,,
+"",and anterior x-ray with,artificial objects in situ,,
+"",compression hip screws,,,
+van Grinsven et al (2016)90 Ophthalmology,NR,NR,NR,NR NR
+Walsh et al (2018)91 Respiratory disease,High-resolution CT showing,Contrast-enhanced CT,NR,NR NR
+"",diffuse fibrotic lung disease,,,
+"",confirmed by at least,,,
+"",two thoracic radiologists,,,
+Wang et al (2017)92 Lung cancer,NR,PET/CT scan in lobectomy,61 (NR; 38–81),46% NR
+"",,patients with systematic hilar,,
+"",,and mediastinal lymph node,,
+"",,dissection,,
+"",,,,(Table 1 continues on next page)
+Subspecialty Participants,,,,
+Inclusion criteria,Exclusion criteria,"Mean age (SD; range),",Percentage of female,Number of participants
+"",,years,participants,represented by the
+"",,,,training data
+"(Continued from previous page)",,,,
+"Wang et al (2018)93 Lung cancer Solitary pulmonary nodule,",Previous chemotherapy or,56 (10·6; NR),81%,NR
+histologically confirmed,radiotherapy that can cause,,,
+pre-invasive lesions and,texture changes; incomplete,,,
+invasive adenocarcinomas,CT; patients with ≥2 lesions,,,
+"",resected,,,
+Wang et al (2019)94 Thyroid cancer Ultrasound examination with,NR,46 (NR; 20–71),NR,NR
+subsequent histological,,,,
+diagnosis,,,,
+Wright et al (2014)95 Nephrology NR,Equivocal reports; artefacts;,9 (NR; 0–80),70%,257
+"",bladder inclusion and residual,,,
+"",uptake in the ureters;,,,
+"",horseshoe kidney,,,
+Wu et al (2019)96 Gastric cancer Patients undergoing OGD,Age <18 years; residual,NR,NR,NR
+"",stomach content,,,
+Ye et al (2019)97 Trauma and Patients with ICH,Missing information or serious,Non-ICH :42 (15; 2–82),Non-ICH: 55%,NR
+orthopaedics,imaging artefact,ICH: 54 (17; 1–98),ICH: 35%,
+Yu et al (2018)98 Dermatological Benign nevi or acral melanoma,NR,NR,NR,NR
+cancer with histological diagnosis and,,,,
+dermatoscopic images,,,,
+Zhang C et al (2019)99 Lung cancer CT scans from lung cancer,Images with no ground truth,60 (11; NR),Training: 44%,NR
+screening,labels available,,,
+"Zhang Y et al (2019)100 Paediatrics, NR","Blurry, very dark or bright, or",NR,56%,17 801
+ophthalmology,non-fundus images were,,,
+"",excluded,,,
+Zhao et al (2018)101 Lung cancer Thin-slice chest CT scan before,NR,54 (12; 16–82),NR,NR
+surgical treatment; nodule,,,,
+diameter ≤10 mm on CT; no,,,,
+treatment before surgical,,,,
+treatment,,,,
+NR=not reported. OCT=optical coherence tomography. DMO=diabetic macular oedema. ICH=intracranial haemorrhage. SPECT=single-photon-emission CT. OGD=oesophagogastroduodenoscopy.,,,,
+Table 1: Participant demographics for the 82 included studies,,,,
+"",Target condition,Reference standard,Same method for,Type of internal validation External
+"",,,assessing reference,validation
+"",,,standard across,
+"",,,samples,
+Abbasi-Sureshjani et al,Diabetes,Histology,Yes,Random split sample validation No
+"(2018)24",,,,
+Adams et al (2019)25,Hip fracture,Surgical confirmation,Yes,Random split sample validation No
+Ardila et al (2019)19,Lung cancer,Histology; follow-up,No,NR Yes
+Ariji et al (2019)26,Lymph node,Histology,Yes,Resampling method No
+"",metastasis,,,
+Ayed et al (2015)27,Breast tumour,Histology,Yes,Random split sample validation No
+Becker et al (2017)28,Breast tumour,Histology; follow-up,No,Study 1: NA Yes
+"",,,,Study 2: temporal split-sample
+"",,,,validation
+Becker et al (2018)20,Breast tumour,Histology; follow-up,No,Random split sample validation No
+Bien et al (2018)29,Knee injuries,Expert consensus,Internal validation,Stratified random sampling No
+"",,,dataset: yes,
+"",,,External validation,
+"",,,dataset: NR,
+Brinker et al (2019)30,Melanoma,Histology,Yes,Random split sample validation Yes
+Brown et al (2018)21,Retinopathy,Expert consensus,Yes,Resampling method Yes
+Burlina et al (2017)31,Age-related macular,Expert consensus,Yes,Resampling method No
+"",degeneration,,,
+Burlina et al (2018)32,Age-related macular,Reading centre grader,Yes,NR No
+"",degeneration,,,
+Burlina et al (2018)33,Age-related macular,Reading centre grader,Yes,NR No
+"",degeneration,,,
+Byra et al (2019)34,Breast tumour,Histology; follow-up,No,Resampling method Yes
+Cao et al (2019)35,Prostate cancer,Histology; clinical care notes,Yes,Resampling method No
+"",,or imaging reports,,
+Chee et al (2019)36,Femoral head,Clinical care notes or imaging,Yes,NR Yes
+"",osteonecrosis,reports,,
+Choi et al (2019)37,Breast tumour,Histology; follow-up,No,NA Yes
+Choi et al (2018)38,Liver fibrosis,Histology,Yes,Resampling method Yes
+Ciompi et al (2017)39,Lung cancer,Expert consensus,Yes,Random split sample validation Yes
+Codella et al (2017)40,Melanoma,Histology,No,Random split sample validation No
+Coudray et al (2018)41,Lung cancer,Histology,Yes,NR Yes
+De Fauw et al (2018)42,Retinal disease,Follow-up,Yes,Random split sample validation No
+Ding et al (2019)43,Alzheimer’s disease,Follow-up,No,NR Yes
+Dunnmon et al (2019)44,Lung conditions,Expert consensus,Yes,Resampling method No
+Ehteshami Bejnordi et al,Lymph node,Histology,No,Random split sample validation Yes
+"(2017)45",metastases,,,
+Esteva et al (2017)46,Dermatological cancer,Histology,No,Resampling method No
+Fujioka et al (2019)47,Breast tumour,Histology; follow-up,No,NR No
+Fujisawa et al (2019)48,Dermatological cancer,Histology,No,Resampling method No
+Gómez-Valverde,Glaucoma,Expert consensus,Yes,Resampling method No
+et al (2019)49,,,,
+Grewal et al (2018)50,Brain haemorrhage,Expert consensus,Yes,NR No
+Haenssle et al (2018)51,Melanoma,Histology; follow-up,No,NR No
+Hamm et al (2019)52,Liver tumour,Clinical care notes or imaging,Yes,Resampling method No
+"",,reports,,
+Han et al (2018)53,Onychomycosis,Histology; expert opinion on,No,Random split sample validation Yes
+"",,photography,,
+Han et al (2018)54,Skin disease,Histology; follow-up,No,Random split sample validation Yes
+Hwang et al (2018)55,Pulmonary tuberculosis,Laboratory testing; expert,Yes,NR Yes
+"",,opinion,,
+"",,,,(Table 2 continues on next page)
+Target condition,Reference standard,Same method for,Type of internal validation External
+"",,assessing reference,validation
+"",,standard across,
+"",,samples,
+"(Continued from previous page)",,,
+Hwang et al (2019)56 Age-related macular,Expert consensus,Yes,Random split sample validation Yes
+degeneration,,,
+Hwang et al (2019)57 Lung conditions,Expert consensus,Yes,Random split sample validation No
+Kermany et al (2018)58 Retinal diseases,OCT: consensus involving,No,Random split sample validation No
+"",experts and non-experts,,
+"",X-ray: expert consensus,,
+Kim et al (2012)59 Breast cancer,Histology,Yes,Random split sample validation No
+Kim et al (2018)60 Maxillary sinusitis,Histology; laboratory testing,Yes,Resampling method No
+Kim et al (2019)61 Spondylitis,Expert consensus; another,Yes,NR Yes
+"",imaging modality,,
+Kise et al (2019)62 Sjogren’s syndrome,Expert consensus,Yes,NR No
+Ko et al (2019)63 Thyroid cancer,Histology,Yes,Resampling method No
+Kumagai et al (2019)64 Oesophageal cancer,Histology,Yes,NR No
+Lee et al (2019)65 Intracranial,Expert consensus,Yes,Random split sample validation Yes
+haemorrhage,,,
+Li C et al (2018)66 Nasopharyngeal,Histology,Yes,Random split sample validation Yes
+malignancy,,,
+Li X et al (2019)67 Thyroid cancer,Histology,Yes,NR Yes
+Lin et al (2014)68 Breast tumour,Histology,Yes,NR No
+Lindsey et al (2018)69 Trauma and,Expert consensus,Yes,NR Yes
+orthopaedics,,,
+Long et al (2017)70 Ophthalmology,Expert consensus,Yes,Resampling method Yes
+Lu W et al (2018)71 Macular pathology,Expert consensus,Yes,Resampling method No
+Matsuba et al (2019)72 Age-related macular,Expert consensus,Yes,NR No
+degeneration,,,
+Nakagawa et al (2019)73 Oesophageal cancer,Histology,Yes,NR Yes
+Nam et al (2019)74 Lung cancer,Expert consensus; another,No,Random split sample validation Yes
+"",imaging modality; clinical,,
+"",notes,,
+Olczak et al (2017)75 Fractures,Clinical care notes or imaging,Yes,Random split sample validation No
+"",reports,,
+Peng et al (2019)76 Age-related macular,Reading centre grader,Yes,NR No
+degeneration,,,
+Poedjiastoeti et al Odontogenic tumours,Histology,Yes,NR No
+"(2018)77 of the jaw",,,
+Rajpurkar et al (2018)78 Lung conditions,Expert consensus,Yes,NR No
+Raumviboonsuk et al Diabetic retinopathy,Expert consensus,Yes,NR Yes
+"(2019)79",,,
+Sayres et al (2019)80 Diabetic retinopathy,Expert consensus,Yes,NR No
+Schlegl et al (2018)22 Macular diseases,Expert consensus,Yes,Resampling method No
+Shibutani et al (2019)81 Myocardial stress,Expert consensus,Yes,NR Yes
+defect,,,
+Shichijo et al (2017)82 Helicobacter pylori,Standard-of-care diagnosis,No,Random split sample validation No
+gastritis,based on laboratory testing,,
+Singh et al (2018)83 Lung conditions,Clinical care notes or imaging,No,NR No
+"",reports; existing labels in,,
+"",open-access data library,,
+Song et al (2019)84 Thyroid cancer,Histology,Yes,Resampling method No
+Stoffel et al (2018)85 Breast tumours,Histology,Yes,Random split sample validation No
+Streba et al (2012)86 Liver tumours,Another imaging modality;,No,Resampling method No
+"",histology; follow-up,,
+"",,,(Table 2 continues on next page)
+Target condition Reference standard,Same method for,Type of internal validation,External
+"",assessing reference,,validation
+"",standard across,,
+"",samples,,
+"(Continued from previous page)",,,
+Sun et al (2014)87 Atrial thrombi Surgical confirmation;,No,Random split sample validation,No
+another imaging modality;,,,
+clinical care notes or imaging,,,
+reports,,,
+Tschandl et al (2019)88 Dermatological cancer Histology,Yes,NR,Yes
+Urakawa et al (2019)89 Hip fractures Clinical care notes or imaging,Yes,Random split sample validation,No
+reports,,,
+van Grinsven et al Retinal haemorrhage Single expert,Yes,Random split sample validation,Yes
+"(2016)90",,,
+Walsh et al (2018)91 Lung fibrosis Expert consensus,Yes,NR,Yes
+Wang et al (2017)92 Lymph node Expert consensus,Yes,Resampling method,No
+metastasis,,,
+Wang et al (2018)93 Lung cancer Histology,Yes,Random split sample validation,No
+Wang et al (2019)94 Malignant thyroid Histology,Yes,NR,No
+nodule,,,
+Wright et al (2014)95 Renal tissue function Clinical care notes or imaging,Yes,Random split sample validation,No
+reports,,,
+Wu et al (2019)96 Gastric cancer Histology,Yes,Resampling method,No
+Ye et al (2019)97 Intracranial Expert consensus,Yes,Random split sample validation,No
+haemorrhage,,,
+Yu et al (2018)98 Melanoma Histology,Yes,Resampling method,No
+Zhang C et al (2019)99 Lung cancer Expert consensus,Yes,Resampling method,Yes
+Zhang Y et al (2019)100 Retinopathy Expert consensus,Yes,Random split sample validation,No
+Zhao et al (2018)101 Lung cancer Histology,Yes,NR,No
+"Blinded assessment of reference standard was not reported in any of the studies. NR=not reported. OCT=optical coherence tomography. DMSA=2,3-dimercapto-succinic acid.",,,
+Table 2: Model training and validation for the 82 included studies,,,
+"",,,,,,,,with patients with diabete
+Adams et al,X-ray,NR,No,AlexNet,CNN;,Yes,512/NR,Retrospective cohort; data
+"(2019)25",,,,,AlexNet,,,Melbourne Hospital (Melb
+"",,,,,,,,Australia) radiographic arc
+Ardila et al,CT,No,Yes,Mask RCNN; RetinaNet;,CNN;,Yes,10 396/2228,Retrospective clinical trial
+"(2019)19",,,,Inception V1,Inception,,,National Lung Cancer Scre
+Ariji et al (2019)26,Contrast-,NR,No,CNN,CNN,No,NR/NR,Retrospective cohort; data
+"",enhanced CT,,,,,,,Aichi-Gakuin University Sc
+"",,,,,,,,"(Nagoya, Japan)"
+Ayed et al,Mammograms,NR,NR,ANN,ANN,No,200/NR,Retrospective cohort; seco
+"(2015)27",,,,,,,,subset of the Farabi Digita
+"",,,,,,,,Screening Mammography
+"",,,,,,,,radiology centre El Farabi (
+Becker et al,Mammograms,No,Yes,ViDi Suite Version 20,ANN,No,Study 1: 95/48,"Study 1, cohort A: retrosp"
+"(2017)28",,,,,,,Study 2: 513/257,collected at the University
+"",,,,,,,,"(Zurich, Switzerland)"
+"",,,,,,,,"Study 1, cohort B: retrosp"
+"",,,,,,,,secondary analysis of the
+"",,,,,,,,Repository
+"",,,,,,,,Study 2: retrospective coh
+"",,,,,,,,at the University Hospital
+"",,,,,,,,Switzerland)
+Becker et al,Breast ultrasound,No,Yes,ViDi Suite Version 20,ANN,No,445/192,Retrospective cohort; data
+"(2018)20",,,,,,,,University Hospital Zurich
+"",,,,,,,,Switzerland)
+Bien et al,MRI,No,Yes,MRNet,CNN,Yes,1130/120,Retrospective cohort; data
+"(2018)29",,,,,,,,University Medical Center
+Brinker et al,Dermoscopy,NR,No,ResNet-50,CNN;,Yes,12 378/1359,Retrospective cohort; data
+"(2019)30",,,,,Residual,,,multiple institutions for a
+"",,,,,Network,,,(International Skin Image
+Brown et al,Fundus image,Yes,No,CNN,CNN,Yes,4409/1102,Retrospective cohort; data
+"(2018)21",,,,,,,,multiple hospitals across
+Burlina et al,Fundus image,NR,No,AlexNet; OverFeat,CNN;,Yes,5664/NR,Retrospective cohort; seco
+"(2017)31",,,,,AlexNet,,,subset from the Age-relat
+"",,,,,,,,Study trial
+Burlina et al,Fundus image,NR,No,ResNet,CNN;,Yes,59 313/1348,Retrospective cohort; seco
+"(2018)32",,,,,Residual,,,subset from the Age-relat
+"",,,,,Network,,,Study trial
+Burlina et al,Fundus image,Yes,No,ResNet-50,CNN;,Yes,59 313/1348,Retrospective cohort; seco
+"(2018)33",,,,,Residual,,,subset from the Age-relat
+"",,,,,Network,,,Study trial
+Byra et al,Ultrasound,No,No,VGG-19,CNN; VGG,Yes,582/150,Three data cohorts:
+"(2019)34",,,,,,,,Cohort 1: retrospective cohort; second
+"",,,,,,,,analysis from the Moores Cancer Cent
+"",,,,,,,,"University of California (San Diego, CA"
+"",,,,,,,,Cohort 2: retrospective cohort; second
+"",,,,,,,,analysis of the UDIAT Diagnostic Centr
+"",,,,,,,,"Parc Tauli Corporation (Sabadell, Spain"
+"",,,,,,,,Cohort 3: Retrospective cohort; data c
+"",,,,,,,,from the Institute of Oncology (Warsa
+"",,,,,,,,Poland)
+Cao et al (2019)35,MRI,NR,No,FocalNet,CNN,Yes,NR/NR,Retrospective cohort
+Chee et al,MRI,Yes,Yes,ResNet,CNN;,Yes,1346/148,Retrospective cohort; secondary analy
+"(2019)36",,,,,Residual,,,data collected at Seoul National Unive
+"",,,,,Network,,,Hospital and Seoul National Universit
+"",,,,,,,,"Bundang Hospital (Seoul, Korea)"
+Choi et al,Ultrasound,Yes,No,GoogLeNet,CNN;,Yes,790/NR,Retrospective cohort; secondary analy
+"(2019)37",,,,,Inception,,,data from Samsung Medical Center (S
+"",,,,,,,,Korea)
+Choi et al,Contrast-enhanced,NR,No,CNN,CNN,No,7461/NR,Three data cohorts:
+"(2018)38",CT,,,,,,,Cohort 1: retrospective cohort; second
+"",,,,,,,,analysis of data from Asan Medical Ce
+"",,,,,,,,"(Seoul, South Korea) used for develop"
+"",,,,,,,,dataset
+"",,,,,,,,Cohort 2: retrospective cohort; data c
+"",,,,,,,,from Inje University Paik Hospital and
+"",,,,,,,,Hanyang University Hospital (both Se
+"",,,,,,,,South Korea) for external validation
+"",,,,,,,,Cohort 3: retrospective cohort; data fr
+"",,,,,,,,Yonsei University Severance Hospital (
+"",,,,,,,,South Korea)
+Ciompi et al,CT,No,No,ConvNets,CNN,No,490 320/453,Retrospective cohort; secondary analy
+"(2017)39",,,,,,,,subset of the multicentre Italian Lung
+"",,,,,,,,Detection trial and the Danish Lung Ca
+"",,,,,,,,Screening Trial
+Codella et al,Histology,NR,No,MA (ensembles),NR,NR,900/NR,Retrospective cohort; data collected at
+"(2017)40",,,,,,,,multiple institutions for a research cha
+"",,,,,,,,(International Skin Imaging Collaborat
+Coudray et al,Histology,No,No,Inception V3,CNN;,Yes,825/148,Two data cohorts:
+"(2018)41",,,,,Inception,,,Cohort 1: retrospective cohort; second
+"",,,,,,,,analysis of a subset from the Cancer G
+"",,,,,,,,"Atlas Program, National Cancer Institu"
+"",,,,,,,,Cohort 2: retrospective cohort; second
+"",,,,,,,,analysis of data from the New York Un
+"",,,,,,,,"Langone Medical Center (New York, N"
+"",,,,,,,,for external validation
+De Fauw et al,OCT,Yes,No,3D U-Net,CNN; U-Net,No,14 884/993,Retrospective cohort; secondary analy
+"(2018)42",,,,,,,,subset of data collected at Moorfields
+"",,,,,,,,"Hospital (London, UK)"
+"",,,,,,,,analysis of a prospectively
+"",,,,,,,,across the Alzheimer’s Dise
+"",,,,,,,,Initiative
+"",,,,,,,,Cohort 2: retrospective co
+"",,,,,,,,analysis of data from the D
+"",,,,,,,,"Radiology, University of Ca"
+"",,,,,,,,for external validation
+Dunnmon et al,Chest x-ray,NR,Yes,ResNet-18; Dense-Net 121;,CNN;,Yes,180 000/20 000,Retrospective cohort; seco
+"(2019)44",,,,KSVM + BOVW; AlexNet,Residual,,,data from the Department
+"",,,,,Network;,,,"Stanford University (CA, U"
+"",,,,,DenseNet,,,
+"",,,,,Support,,,
+"",,,,,Vector,,,
+"",,,,,Machine,,,
+Ehteshami,Histology,No,Yes,GoogleLeNet; ResNet;,CNN;,Yes,270/NR,Retrospective cohort; data
+Bejnordi et al,,,,VGG-16; VGG-Net; SegNet;,Inception;,,,Radbound University Medi
+"(2017)45",,,,4-layer CNN; AlexNet; U-Net;,VGG;,,,"(Nijmegen, Netherlands) a"
+"",,,,"CRFasRnn; 7-layer CNN, Agg-",Residual,,,"Medical Center (Urecht, N"
+"",,,,Net; 3-layer CNN,Network;,,,research challenge (“CAME
+"",,,,,AlexNet;,,,
+"",,,,,U-Net,,,
+Esteva et al,Photographs,Yes,Yes,Inception V3,CNN;,Yes,129 450/NR,Retrospective cohort; inclu
+"(2017)46",,,,,Inception,,,online open-access reposit
+"",,,,,,,,International Skin Imaging
+"",,,,,,,,"Dermoscopic Archive, the"
+"",,,,,,,,Library) and data from Sta
+"",,,,,,,,USA)
+Fujioka et al,Breast ultrasound,NR,No,Inception V2,CNN;,Yes,947/NR,Retrospective cohort; seco
+"(2019)47",,,,,Inception,,,data from Tokyo Medical a
+"",,,,,,,,"University (Tokyo, Japan)"
+Fujisawa et al,Photographs,NR,No,GoogLeNet,CNN;,Yes,4867/NR,Retrospective cohort; seco
+"(2019)48",,,,,Inception,,,data from University of Ts
+"",,,,,,,,"(Tsukuba, Japan)"
+Gómez-Valverde,Fundus images,Yes,No,VGG-19,CNN; VGG,Yes,1560/NR,Two data cohorts:
+et al (2019)49,,,,,,,,Cohort 1: retrospective co
+"",,,,,,,,analysis of data collated in
+"",,,,,,,,and DRISHTI-GS datasets
+"",,,,,,,,Cohort 2: retrospective co
+"",,,,,,,,analysis of data from the H
+"",,,,,,,,Esperanza (Parc de Salut M
+"",,,,,,,,Spain)
+Grewal et al,CT,NR,No,DenseNet,CNN;,Yes,185/67,Retrospective dataset fro
+"(2018)50",,,,,DenseNet,,,
+measurement,imaging,,,,applied,tuning),
+"(Continued from previous page)",,,,,,,
+Haenssle et al Dermoscopy,NR,No,Inception V4,CNN;,Yes,NR/NR,Two data cohorts:
+"(2018)51",,,,Inception,,,Cohort 1: retrospective cohort; secondary
+"",,,,,,,analysis of data from the validated image
+"",,,,,,,library at the Department of Dermatolog
+"",,,,,,,"University of Heidelberg (Heidelberg,"
+"",,,,,,,Germany)
+"",,,,,,,Cohort 2: retrospective cohort; secondar
+"",,,,,,,analysis of a subset of data from the
+"",,,,,,,International Skin Imaging Collaboration
+"",,,,,,,melanoma project
+Hamm et al Contrast-enhanced,Yes,No,CNN,CNN,No,434/NR,Retrospective cohort; secondary analysis
+"(2019)52 MRI",,,,,,,data collected at the Department of Radi
+"",,,,,,,"and Biomedical Imaging, Yale School of"
+"",,,,,,,"Medicine (New Haven, CT, USA)"
+Han et al (2018)53 Photographs,No,Yes,Ensemble:,"Ensemble,",Yes,19 398/NR,Retrospective cohort; data collected at th
+"",,,ResNet-152 + VGG-19,CNN;,,,"Asan Medical Center, Inje, and and Seoul"
+"",,,(arithmetic mean of both,Residual,,,"University (Seoul, South Korea) and Hally"
+"",,,outputs),Network,,,"(Dongtan, South Korea)"
+Han et al (2018)54 Photographs,Yes,No,ResNet-152,CNN;,Yes,49 567/3741,Retrospective cohort; data collected at th
+"",,,,Residual,,,"Asan Medical Center (Seoul, South Korea)"
+"",,,,Network,,,University Medical Center Groningen
+"",,,,,,,"(Groningen, Netherlands), Dongtan Sacre"
+"",,,,,,,"Heart Hospital (Gyeonggi, South Korea),"
+"",,,,,,,"Hallym University (Dongtan, South Korea"
+"",,,,,,,"Sanggye Paik Hospital (Seoul, South Kore"
+"",,,,,,,"Inje University (Seoul, South Korea), with"
+"",,,,,,,additional data collected from open-acce
+"",,,,,,,repositories and websites
+Hwang et al Chest x-ray,NR,Yes,CNN,CNN,No,60 689/450,Two data cohorts:
+"(2018)55",,,,,,,Cohort 1: retrospective cohort; secondary
+"",,,,,,,analysis of data collected from the imagin
+"",,,,,,,database of Seoul National University Ho
+"",,,,,,,"(Seoul, South Korea)"
+"",,,,,,,Cohort 2: retrospective cohort; secondary
+"",,,,,,,analysis of data collected at Seoul Nation
+"",,,,,,,"University Hospital (Seoul, South Korea),"
+"",,,,,,,"Boramae Medical Center (Seoul, South Ko"
+"",,,,,,,Kyunghee University Hospital at Gangdo
+"",,,,,,,"(Seoul, South Korea), and Daejeon Eulji"
+"",,,,,,,"Medical Center (Daejeon, South Korea)"
+"",,,,,,,Cohort 3: retrospective cohort; secondary
+"",,,,,,,analysis of the tuberculosis screening
+"",,,,,,,"programme of Montgomery County (MD,"
+"",,,,,,,USA)
+"",,,,,,,Cohort 4: retrospective cohort; secondary
+"",,,,,,,analysis of data from the tuberculosis
+"",,,,,,,"screening programme of Shenzhen, Chin"
+"",,,,,Residual,,,Ophthalmology of Taipei Veterans G
+"",,,,,Network,,,"Hospital (Taipei, Taiwan)"
+Hwang et al,Chest x-ray,No,Yes,CNN,CNN,No,87 695/1050,Two data cohorts:
+"(2019)57",,,,,,,,Cohort 1: retrospective cohort; seco
+"",,,,,,,,analysis of data from a single institut
+"",,,,,,,,further details available)
+"",,,,,,,,Cohort 2: retrospective cohort; data
+"",,,,,,,,from four hospitals in Korea and fou
+"",,,,,,,,hospitals in France for external valid
+Kermany et al,OCT,Yes,Yes,Inception V3,CNN;,Yes,OCT:,OCT: retrospective cohort of adult pa
+"(2018)58",,,,,Inception,,108 312/1000,from the Shiley Eye Institute of the U
+"",,,,,,,Chest x-ray:,"of California San Diego (CA, USA), th"
+"",,,,,,,5232/NR,California Retinal Research Foundati
+"",,,,,,,,"USA), Medical Center Ophthalmolog"
+"",,,,,,,,"Associates, Shanghai First People’s H"
+"",,,,,,,,"(Shanghai, China), and Beijing Tongr"
+"",,,,,,,,"Center (Beijing, China)"
+"",,,,,,,,Chest x-ray: retrospective cohort of p
+"",,,,,,,,patients aged 1–5 years from Guangz
+"",,,,,,,,Women and Children’s Medical Cent
+"",,,,,,,,"(Guangzhou, China)"
+Kim et al (2012)59,Ultrasound,No,No,3-layer back propagation,ANN,No,70/70,Retrospective cohort; data collected
+"",,,,ANN (multilayered,,,,Kangwon National University Colleg
+"",,,,perceptron),,,,"Medicine (Gangwon-do, South Kore"
+Kim et al (2018)60,Waters’ view plain,No,No,CNN,CNN,No,NR/NR,Retrospective cohort; secondary anal
+"",film radiography,,,,,,,data collected from Gangnam Severa
+"",,,,,,,,"Hospital (Seoul, South Korea)"
+Kim et al (2019)61,MRI,No,Yes,ResidualNet,CNN;,Yes,8000/1000,Retrospective cohort; secondary anal
+"",,,,,Residual,,,data collected from Seoul National U
+"",,,,,Network,,,Hospital and Seoul National Universi
+"",,,,,,,,"Bundang Hospital (Seoul, South Kor"
+Kise et al (2019)62,CT,NR,No,AlexNet,CNN;,Yes,400/NR,Retrospective cohort
+"",,,,,AlexNet,,,
+Ko et al (2019)63,Ultrasound,NR,No,CNN,CNN; VGG,Yes,594/NR,Retrospective cohort; secondary anal
+"",,,,(imagenet-vgg-verydeep-16,,,,data collected at the Department of
+"",,,,and Imagenet-VGG-F),,,,"Radiology, Jeju National University H"
+"",,,,,,,,Jeju National School of Medicine (Jej
+"",,,,,,,,Korea)
+Kumagai et al,Endocytoscopic,Yes,No,GoogLeNet,CNN;,Yes,240/NR,Retrospective cohort; secondary anal
+"(2019)64",images,,,,Inception,,,data collected from Saitama Medical
+"",,,,,,,,"(Saitama, Japan)"
+Lee et al (2019)65,CT,No,Yes,VGG-16; ResNet-50;,CNN; VGG;,Yes,704/200,Retrospective cohort for developme
+"",,,,Inception V3;,Residual,,,retrospective and prospective cohort
+"",,,,Inception-ResNet-V2,Network;,,,validation; data collected from Depa
+"",,,,ensemble,Inception,,,"Radiology, Massachusetts General H"
+"",,,,,,,,"(Boston, MA, USA)"
+Li X et al (2019)67,Ultrasound,Yes,Yes,"ResNet-50 and Darnet-19,",CNN;,Yes,42 952/NR,Retrospective cohort; secondary analy
+"",,,,Ensemble DCNN,Residual,,,data collected from Tianjin Cancer Ho
+"",,,,,Network,,,"(Tianjin, China), Integrated Traditiona"
+"",,,,,,,,Chinese and Western Medicine Hospit
+"",,,,,,,,China) and Weihai Municipal Hospital
+"",,,,,,,,"(Shandong, China)"
+Lin et al (2014)68,Ultrasound,NR,No,Fuzzy Cerebellar Neural,Fuzzy,No,NR/NR,Retrospective cohort; data collected a
+"",,,,Network,Neural,,,"Eastern Memorial Hospital, Taiwan"
+"",,,,,Network,,,
+Lindsey et al,X-ray,NR,Yes,DCNN,U-Net;,No,100 855/28 341,Retrospective cohort; Department of
+"(2018)69",,,,,DCNN,,,"Orthopaedic Surgery, Hospital for Spe"
+"",,,,,,,,"Surgery (New York, NY, USA)"
+Long et al,Ocular photographs,No,No,CC-Cruiser; DCNN,DCNN,No,886/NR,Three data cohorts:
+"(2017)70",,,,,,,,Cohort 1: retrospective cohort; Childh
+"",,,,,,,,Cataract Program of the Chinese Minis
+"",,,,,,,,Health
+"",,,,,,,,Cohort 2: prospective cohort; three no
+"",,,,,,,,specialised collaborating hospitals in C
+"",,,,,,,,(two sites in Guangzhou City and one
+"",,,,,,,,Qingyuan City)
+"",,,,,,,,Cohort 3: search engine cohort; image
+"",,,,,,,,"searches of the search engines Google,"
+"",,,,,,,,and Bing
+Lu W et al,OCT,Yes,Yes,ResNet,CNN;,Yes,19 815/2202,Retrospective cohort; data collected fr
+"(2018)71",,,,,Residual,,,"Wuhan University Eye Center (Wuhan,"
+"",,,,,Network,,,
+Matsuba et al,Fundus images,NR,Yes,CNN,CNN,No,253/NR,Retrospective cohort; secondary analy
+"(2019)72",,,,,,,,data collected from Tzukazaki Hospita
+"",,,,,,,,"(Himeji, Japan)"
+Nakagawa et al,Endoscopic images,Yes,No,VGG,CNN; VGG,No,804/NR,Retrospective cohort; secondary analy
+"(2019)73",,,,,,,,data from Osaka International Cancer
+"",,,,,,,,"Institute (Osaka, Japan)"
+Nam et al,Chest x-ray,Yes,Yes,DCNN,CNN,No,43 292/600,Retrospective cohort; secondary analy
+"(2019)74",,,,,,,,data collected from Seoul National Un
+"",,,,,,,,"Hospital (Seoul, South Korea), Boram"
+"",,,,,,,,"Hospital  (Seoul, South Korea), and Na"
+"",,,,,,,,"Cancer Center, University of California"
+"",,,,,,,,Francisco Medical Center (San Francisc
+"",,,,,,,,USA)
+Olczak et al,"Wrist, hand, and",NR,No,VGG-16,CNN; VGG,Yes,179 521/NR,Retrospective cohort; data collected a
+"(2017)75",ankle x-rays,,,,,,,"Danderyd Hospital (Danderyd, Swede"
+Peng et al,Fundus images,No,Yes,Pnet; LA-net; DeepSet Net;,CNN;,Yes,58 402/NR,Retrospective cohort; data collected a
+"(2019)76",,,,Inception V3; CNN; Dnet,Inception,,,the AREDS study dataset
+Poedjiastoeti,X-ray,NR,Yes,VGG-16,CNN; VGG,Yes,400/NR,Retrospective cohort; secondary analy
+et al (2018)77,,,,,,,,data collected from Thammasat Unive
+"",,,,,,,,"(Pathumthani, Thailand)"
+"",,,,,,,,the National Institutes of Health
+Raumviboonsuk,Fundus images,Yes,No,CNN Inception-V4,CNN;,NR,Not applicable/not,Retrospective cohort; secondary analys
+et al (2019)79,,,,,Inception,,applicable,data collected from the National Thai R
+"",,,,,,,,of Diabetic Retinopathy
+Sayres et al,Fundus images,Yes,Yes,Inception V4,CNN;,Yes,140 000/2000,Retrospective cohort; secondary analys
+"(2019)80",,,,,Inception,,,data collected from Aravind Eye Hospit
+"",,,,,,,,"(India), Sankara Nethralaya Hospital (C"
+"",,,,,,,,"India), and Narayana Nethralaya Hospi"
+"",,,,,,,,(India)
+Schlegl et al,OCT,Yes,Yes,Deep learning model,CNN,No,840/NR,Retrospective cohort; secondary analys
+"(2018)22",,,,,,,,data collected from the Vienna Readin
+"",,,,,,,,"Center, Vienna, Austria"
+Shibutani et al,SPECT,NR,Yes,ANN,ANN,No,Not applicable/,Prospective secondary analysis of data
+"(2019)81",,,,,,,not applicable,collected from Kanazawa University Ho
+"",,,,,,,,Japan
+Shichijo et al,Endoscopic images,Yes,No,GoogLeNet and Caffe DL,CNN;,Yes,32 209/NR,Retrospective cohort; data collected at
+"(2017)82",,,,framework,Inception,,,Tomohiro Institute of Gastroenterolog
+"",,,,,,,,"Proctology, Saitama, Japan"
+Singh et al,Chest x-ray,No,Yes,“Qure AI”,CNN,No,1 150 084/93 972,Two data cohorts:
+"(2018)83",,,,,,,,Cohort 1: retrospective cohort for train
+"",,,,,,,,“various hospitals” in India
+"",,,,,,,,Cohort 2: retrospective cohort for testi
+"",,,,,,,,ChestX-ray8 database
+Song et al,Ultrasound,NR,No,Multitask cascade pyramid,CNN,Yes,6228/NR,Two data cohorts:
+"(2019)84",,,,CNN,,,,Cohort 1: development data source no
+"",,,,,,,,reported
+"",,,,,,,,Cohort 2: retrospective cohort from op
+"",,,,,,,,repository
+Stoffel et al,Ultrasound,NR,No,Propietary ViDi Suite,CNN,No,53/NR,Retrospective cohort; secondary analys
+"(2018)85",,,,deep-learning system,,,,data from the University Hospital Zuric
+"",,,,,,,,Switzerland
+Streba et al,Contrast-enhanced,NR,No,Multilayer ANN,ANN,No,NR/NR,Prospective cohort of patients that un
+"(2012)86",ultrasound,,,,,,,contrast-enhanced ultrasound imagin
+"",,,,,,,,collected at the Research Center of
+"",,,,,,,,"Gastroenterology and Hepatology, Crai"
+"",,,,,,,,Romania
+Sun et al (2014)87,Transoesophageal,NR,No,ANN,ANN,No,NR/NR,Prospective cohort of patients collecte
+"",echocardiogram,,,,,,,Hospital of Harbin Medical University (
+"",,,,,,,,China)
+Tschandl et al,Dermoscopy and,Yes,No,Inception V3,CNN;,No,13 724/975,Two data cohorts:
+"(2019)88",clinical close-up,,,,Inception,,,Cohort 1: retrospective cohort; second
+"",,,,,,,,analysis of data from two open-source
+"",,,,,,,,repositories (EDRA and ISIC)
+"",,,,,,,,Cohort 2: retrospective cohort; second
+"",,,,,,,,analysis of data from a single skin canc
+"",,,,,,,,centre
+"",,,,,,,,"Orthopedic Surgery, Tsuruoka, Municip"
+"",,,,,,,,Shonai Hospital (Japan)
+van Grinsven,Fundus images,NR,Yes,SES CNN 60; NSES CNN 170,CNN,No,5287/NR,Retrospective cohort; secondary analys
+et al (2016)90,,,,,,,,two open-access online repositories
+Walsh et al,High-resolution CT,NR,No,Inception-ResNet-V2,CNN;,Yes,929/89,Retrospective cohort; secondary analys
+"(2018)91",,,,,Inception,,,data from La Fondazione Policlinico
+"",,,,,,,,"Universitario A Gemelli IRCCS (Rome, It"
+"",,,,,,,,"and University of Parma (Parma, Italy)"
+Wang,PET/CT,NR,No,BP-ANN D13; BP-ANN T82;,ANN,No,NR/NR,Retrospective cohort; data collected at
+et al (2017)92,,,,BP-ANN A95; BP-ANN S6;,,,,Affiliated Tumor Hospital of Harbin Me
+"",,,,CNN,,,,"University (Harbin, China)"
+Wang et al,High-resolution CT,NR,No,3D CNN,CNN,No,1075/270,Retrospective cohort; secondary analys
+"(2018)93",,,,,,,,data collected from Fudan University
+"",,,,,,,,"Shanghai Cancer Center (Shanghai, Chi"
+Wang et al,Ultrasound,NR,No,ResNet V2-50; YOLOv2,CNN;,Yes,5007/NR,Retrospective cohort; secondary analys
+"(2019)94",,,,,Residual,,,data from Affiliated Hospital of Qingda
+"",,,,,Network,,,University (China)
+Wright et al,Dimercaptosuccinic,Yes,No,CNN,CNN,No,257/NR,Retrospective cohort; data collected
+"(2014)95",acid images,,,,,,,consecutively across two sites
+Wu et al (2019)96,Endoscopy images,Yes,Yes,VGG-16; ResNet-50,CNN; VGG;,Yes,24 549/NR,Retrospective cohort; secondary analys
+"",,,,,Residual,,,data from Renmin Hospital of Wuhan
+"",,,,,Network,,,"University (Wuhan, China)"
+Ye et al (2019)97,CT,Yes,Yes,CNN; RNN,CNN; RNN,No,2255/282,Retrospective cohort; secondary analys
+"",,,,,,,,data collected from three participating
+"",,,,,,,,hospitals
+Yu et al (2018)98,Dermoscopy,NR,No,CNN; VGG-16,CNN; VGG,Yes,362/109,Retrospective cohort; secondary analysi
+"",,,,,,,,data from Severance Hospital in the Yon
+"",,,,,,,,"University Health System(Seoul, South"
+"",,,,,,,,and Dongsan Hospital in the Keimyung
+"",,,,,,,,"University Health System (Daegu, Sout"
+Zhang C et al,CT,No,No,CNN,CNN,No,2285/757,Retrospective cohort; secondary analys
+"(2019)99",,,,,,,,data from Guangdong Provincial Peopl
+"",,,,,,,,"Hospital, Foshan First People’s Hospital"
+"",,,,,,,,Guangdong Lung Cancer Institute
+"",,,,,,,,"(Guangdong, China) and  The Third Affi"
+"",,,,,,,,Hospital of Sun Yat-Sen University and
+"",,,,,,,,Guangzhou Chest Hospital (Guangzho
+"",,,,,,,,China)
+Zhang Y et al,Fundus images,Yes,No,VGG-16,CNN; VGG,Yes,17 801/NR,Retrospective cohort; secondary analys
+"(2019)100",,,,,,,,data from Shenzhen Eye Hospital regio
+"",,,,,,,,"screening data (Shenzhen, China)"
+Zhao et al,CT,NR,No,Densesharp; CNN,CNN;,No,523/NR,Retrospective cohort; secondary analys
+"(2018)101",,,,,DenseNet,,,data from Huadong Hospital Affiliated
+"",,,,,,,,"Fudan University (Shanghai, China)"
+Number and type of predictors was not reported in any of the studies. NR=not reported. CNN=convolutional neural network. ANN=artificial neural network. RNN=recurrent neural network. DCNN=deep CNN.,,,,,,,,
+"Table 3: Indicator, algorithm, and data source for the 82 included studies",,,,,,,,

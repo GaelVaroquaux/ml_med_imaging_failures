@@ -1,0 +1,267 @@
+Purpose,Disorder,Modality,Feature,Classifier,Validation,Overall accuracy,Number of
+"",,,,,,,subjects
+Classification,MCI,rs-fMRI,Functional,SVM,LOOCV,0.919 (MCI vs,"MCI = 12,"
+"",,,connectivity,,,NC),"NC = 25,"
+"",,,network,,,,total = 37
+Classification,AD/MCI,sMRI,Local binary,SVM,10-fold CV,0.828 (AD vs,"AD = 80,"
+"",,,pattern,,,"HC), 0.615","pMCI = 141,"
+"",,,,,,(MCI vs NC),"HC = 142,"
+"",,,,,,,total = 363
+Classification,AD,"sMRI, DTI",DTI features,SVM,LOOCV,0.943 (AD vs,"AD = 21,"
+"",,,,,,"HC),","HC = 15,"
+"",,,,,,,total = 36
+Classification,MCI,sMRI,Cortical features,SVM,LOOCV,0.8 (aMCI vs,"aMCI = 24,"
+"",,,,,,NC),"NC = 26,"
+"",,,,,,,total = 50
+Classification,AD/MCI,T1WI,Voxel-wise,SVM,10-fold CV,"0.9 (AD vs HC),","AD = 198,"
+"",,,imaging fea-,,,0.87 (pMCI,"pMCI = 167,"
+"",,,tures,,,"vs NC), 0.71","sMCI = 236,"
+"",,,,,,(pMCIvs,"HC = 229,"
+"",,,,,,sMCI),total = 830
+Classification,MCI,PET,Neuropsycho-,SVM,N/A,0.89 (cMCI vs,"cMCI = 25,"
+"",,,logical test,,,sMCI),"sMCI = 20,"
+"",,,data,,,,total = 45
+Classification,AD/MCI,"sMRI, FDG-","GM structure,",SVM,10-fold CV,0.95 (AD vs,"AD = 51,"
+"",,PET,"PET, CSF",,,"HC), 0.8 (MCI","cMCI = 43,"
+"",,,biomarker,,,"vs NC), 0.746","ncMCI = 56,"
+"",,,,,,"(MCI vs AD),","HC = 52,"
+"",,,,,,0.72 (ncMCI,total = 202
+"",,,,,,vs cMCI),
+Classification,MCI,"MRI, PET",189 features (93,M2TL,10-fold CV,0.801 (cMCI vs,"AD = 51,"
+"",,,"MRI, 93PET, 3",,,ncMCI),"cMCI = 43,"
+"",,,CSF),,,,"ncMCI = 56,"
+"",,,,,,,"NC = 52,"
+"",,,,,,,total = 202
+Classification,AD,"dMRI, rs-fMRI,",Fiber tract integ-,SVM,LOOCV,0.85 (AD vs,"AD = 28,"
+"",,sMRI,"rity, graph-",,,HC),"HC = 25,"
+"",,,theoretical,,,,total = 53
+"",,,"measures, GM",,,,
+"",,,volume,,,,
+Classification,AD,MRI,Longitudinal,SVM + RBF,k-fold CV,0.917 (AD vs,"AD = 30,"
+"",,,percentage of,,,HC),"HC = 30,"
+"",,,brain volume,,,,total = 60
+"",,,changes,,,,
+Purpose,Disorder,Modality,Feature,Classifier,Validation,Overall accuracy,Number of
+"",,,,,,,subjects
+Classification,AD/MCI,"MRI, FDG-PET","GM volume,",SVM,10-fold CV,0.9503 (AD vs,"AD = 51,"
+"",,,average inten-,,,"HC), 0.7927","pMCI = 99,"
+"",,,sity of PET,,,"(MCI vs NC),","HC = 52,"
+"",,,,,,0.689 (cMCI,total = 202
+"",,,,,,vs ncMCI),
+Classification,AD,rs-fMRI,Network-based,SVM,LOOCV,1.0 (AD vs HC),"AD = 20,"
+"",,,features,,,,"HC = 20,"
+"",,,,,,,total = 40
+Classification,AD/MCI,MRI,GM volumetric,SVM,10-fold CV,0.925 (AD vs,"AD = 97,"
+"",,,features,,,"HC), 0.79","pMCI = 117,"
+"",,,,,,(pMCIvs,"sMCI = 117,"
+"",,,,,,sMCI),"HC = 128,"
+"",,,,,,,total = 459
+Classification,AD/MCI,"MRI, PET","GM volume,",SVM,10-fold CV,0.91 (AD vs,"AD = 85,"
+"",,,regional ave.,,,"HC), 0.82","cMCI = 67,"
+"",,,CMRGlc,,,(MCI vs NC),"ncMCI = 102,"
+"",,,,,,,"HC = 77,"
+"",,,,,,,total = 331
+Classification,AD,MPRAGE,Smoothed GM,"SVM, LDS",2 nested CV,0.74 (AD vs,"AD = 200,"
+"",,,density values,,loops,NC),"pMCI = 164,"
+"",,,,,,,"sMCI = 100,"
+"",,,,,,,"HC = 231,"
+"",,,,,,,total = 695
+Classification,AD/MCI,"MRI, FDG-PET,","GM volume,",wmSRC,N/A,0.948 (AD vs,"AD = 113,"
+"",,florbetapir,SUVr,,,"HC), 0.745","pMCI = 110,"
+"",,PET,,,,"(MCI vs HC),","HC = 117,"
+"",,,,,,0.778 (pMCIvs,total = 340
+"",,,,,,sMCI),
+Classification,AD/MCI,"MRI, PET",HOG,SVM,10-fold CV,0.913 (AD vs,"AD = 198,"
+"",,,,,,"HC), 0.781","pMCI = 124,"
+"",,,,,,"(MCI vs HC),","sMCI = 118,"
+"",,,,,,0.755 (pMCI,"HC = 229,"
+"",,,,,,vs sMCI),total = 669
+Classification,AD,11C-PiB PET,"3D HOG, amy-",SVM,LOOCV,1.00 (AD vs,"AD = 167,"
+"",,,loid status,,,HC),"HC = 42,"
+"",,,,,,,total = 209
+Classification,AD/MCI,"PET, rs-fMRI",Feature graph,SVM,LOOCV,0.9714 (AD vs,"AD = 30,"
+"",,,,,,"HC), 0.9 (MCI","EMCI = 30,"
+"",,,,,,vs NC),"HC = 60,"
+"",,,,,,,total = 120
+Purpose,Disorder,Modality,Feature,Classifier,Validation,Overall accuracy,Number o
+"",,,,,,,subjects
+Classification,AD/MCI,rs-fMRI,Graph measures,SVM,23-fold CV,0.873 (NC vs,"AD = 34,"
+"",,,,,,"AD/MCI),",MCI = 8
+"",,,,,,0.975 (AD,"NC = 45,"
+"",,,,,,"vs NC/MCI),",total = 1
+"",,,,,,0.72 (MCI vs,
+"",,,,,,NC/AD),
+Classification,AD/MCI,T1WI,GM density map,SVM,10-fold CV,0.9306 (AD vs,"AD = 97,"
+"",,,,,,"HC), 0.7925",pMCI =
+"",,,,,,(pMCI vs,sMCI =
+"",,,,,,sMCI),HC = 12
+"",,,,,,,total = 4
+Classification,AD,rs-fMRI,rs-fMRI feature,SVM,LOOCV,0.76 (AD vs,"AD = 25,"
+"",,,,,,HC),"HC = 34,"
+"",,,,,,,total = 5
+Classification,MCI,rs-fMRI,Functional con-,RBM,LOOCV,0.7258 (MCI vs,"MCI = 31,"
+"",,,nectivity,,,NC),"NC = 31,"
+"",,,,,,,total = 6
+Classification,AD/MCI,"MRI, PET",Feature graph,SVM,10-fold CV,0.926 (AD vs,"AD = 50,"
+"",,,,,,"HC), 0.8 (MCI",pMCI =
+"",,,,,,vs NC),"HC = 52,"
+"",,,,,,,total = 1
+Classification,AD/MCI,"MRI, FDG-PET","GM volume,",SVM,10-fold CV,0.9595 (AD vs,"AD = 51,"
+"",,,average inten-,,,"HC), 0.8026",pMCI =
+"",,,sity of PET,,,(MCI vs NC),HC = 52
+"",,,,,,,total = 2
+Classification,AD/MCI,sMRI,"MRI, SNP",SVM,N/A,0.92 (AD vs,"AD = 171,"
+"",,,features,,,"HC), 0.8 (MCI",pMCI =
+"",,,,,,"vs HC), 0.81",sMCI =
+"",,,,,,(pMCI vs,HC = 20
+"",,,,,,sMCI),total = 7
+Classification,MCI,T1WI,GM region,SVM,10-fold CV,0.93 (pMCI vs,"AD = 92,"
+"",,,atrophy,,,sMCI),pMCI =
+"",,,,,,,sMCI =
+"",,,,,,,HC = 94
+"",,,,,,,total = 3
+Classification,MCI,"rs-fMRI, DTI",Functional con-,SVM,LOOCV,0.787 (MCI vs,"MCI = 54,"
+"",,,nectivity,,,NC),"NC = 54,"
+"",,,,,,,total = 1
+Purpose,Disorder,Modality,Feature,Classifier,Validation,Overall accuracy,Number of
+"",,,,,,,subjects
+Classification,AD,T1WI,GM density map,LASSO,10-fold CV,0.81 (AD vs,"AD = 137,"
+"",,,,,,HC),"SCI = 38,"
+"",,,,,,,"MCI = 78,"
+"",,,,,,,"HC = 355,"
+"",,,,,,,total = 608
+Classification,AD,"MRI, PET","5 ROI, 6 shape,",SVM,CV,0.8813 (MCI vs,"AD = 137,"
+"",,,2 volume,,,NC),"cMCI = 76,"
+"",,,features,,,,"HC = 162,"
+"",,,,,,,total = 375
+Classification,MCI,MRI,Cortical surface,SVM,Stratified shuffle,0.77 (naMCI vs,"aMCI = 40,"
+"",,,based meas-,,split CV,"aMCI), 0.81",naMCI = 2
+"",,,urements,,,"(aMCI vs CN),","NC = 117,"
+"",,,,,,0.7 (naMCI vs,total = 184
+"",,,,,,CN),
+Classification,AD,rs-fMRI,Connectivity,SVM,10-fold CV,0.916 (AD vs,"AD = 38,"
+"",,,hyper-networks,,,HC),"HC = 28,"
+"",,,,,,,total = 66
+Classification,MCI,rs-fMRI,Graph measures,SVM,"LOOCV, 9-fold",0.914,"cMCI = 18,"
+"",,,,,CV,,ncMCI = 6
+"",,,,,,,total = 80
+Classification,AD,"T1WI, PET","GM volume,",SMSMA,10-fold CV,AUC = 0.95,"AD = 52,"
+"",,,average inten-,,,,"HC = 48,"
+"",,,sity of PET,,,,total = 100
+Classification,AD/MCI,rs-fMRI,Graph measures,Naïve Bayes,10-fold CV,0.9329 (MCI vs,"AD = 34,"
+"",,,,,,AD),"MCI = 89,"
+"",,,,,,,"NC =45,"
+"",,,,,,,total = 168
+Classification,AD,"MRI, PET",Structural meas-,"SVM, IVM,","70/30 CV,",0.7788 (AD vs,"AD = 70,"
+"",,,ures,RELM,"10-fold CV,","HC),","pMCI = 74,"
+"",,,,,LOOCV,,"HC = 70,"
+"",,,,,,,total = 214
+Classification,AD/MCI,"sMRI, FDG-",Mean GM vol-,SCDDL,10-fold CV,0.9736 (AD vs,"AD = 113,"
+"",,"PET, florbeta-","ume, SUVr",,,"HC), 0.7766",pMCI = 11
+"",,pir PET,,,,(MCI vs HC),"HC = 117,"
+"",,,,,,,total = 340
+Classification,AD/MCI,MRI,"GM, amygdara",SVM,10-fold CV,0.965 (AD vs,"AD = 65,"
+"",,,,,,"HC), 0.9174","pMCI = 95,"
+"",,,,,,"(pMCI vs HC),",sMCI = 13
+"",,,,,,0.8899 (pMCI,"HC = 135,"
+"",,,,,,vs sMCI),total = 427
+Purpose,Disorder,Modality,Feature,Classifier,Validation,Overall accuracy,Number of
+"",,,,,,,subjects
+Classification,AD,T1WI,Regional volume,Automated volu-,N/A,1.00 (AD vs,"AD = 30,"
+"",,,,metric assess-,,HC),"HC = 25,"
+"",,,,ment tool,,,total = 55
+Classification,AD,"MRI, blood lipid",Lipidomics,Random forest,Training/test,0.71(AD vs HC),"AD = 142,"
+"",,,,,(2/1),,"HC = 135,"
+"",,,,,,,total = 277
+Classification,AD/MCI,sMRI,Cortical,LDA,10-fold CV,0.969 (NC vs,N/A
+"",,,"thickness,",,,"AD/MCI),",
+"",,,hippocam-,,,0.612 (AD,
+"",,,"pal shape,",,,"vs NC/MCI),",
+"",,,hippocampal,,,0.287 (MCI vs,
+"",,,"texture, and",,,NC/AD),
+"",,,volumetry,,,,
+Classification,AD/MCI,sMRI,Spatially nor-,Deep ESR net,10-fold CV,0.91 (AD vs,"AD = 186,"
+"",,,malized GM,,,"HC), 0.73","pMCI = 167,"
+"",,,densities,,,"(MCI vs NC),","sMCI = 226,"
+"",,,,,,0.748 (pMCIvs,"HC = 226,"
+"",,,,,,sMCI),total = 805
+Classification,AD/MCI,"MPRAGE, PiB-","GM volume,",Simple MKL,10-fold CV,0.957 (AD vs,"AD = 52,"
+"",,PET,intensity of,,,"HC), 0.958","pMCI = 108,"
+"",,,PET,,,"(MCI vs NC),","HC = 120,"
+"",,,,,,0.951 (MCI vs,total = 280
+"",,,,,,AD),
+Classification,AD/MCI,MRI,GM volume,SVM,10-fold CV,0.903 (AD vs,"AD = 186,"
+"",,,,,,"HC), 0.722","pMCI = 393,"
+"",,,,,,"(MCI vs NC),","HC = 226,"
+"",,,,,,0.713 (sMCI,total = 805
+"",,,,,,vs cMCI),
+Classification,AD/MCI,"MRI, PET","GM volume,",SVM,10-fold CV,0.957 (AD vs,"AD = 51,"
+"",,,intensity of,,,"HC), 0.799","cMCI = 143,"
+"",,,PET,,,"(MCI vs HC),","ncMCI = 156,"
+"",,,,,,0.724 (ncMCI,"HC = 52,"
+"",,,,,,vs cMCI),total = 402
+Classification,AD,MRI,Hippocampal,HUMAN,N/A,0.20 (AD vs,"AD = 132,"
+"",,,,,,NC),"pMCI = 250,"
+"",,,,,,,"HC = 174,"
+"",,,,,,,total = 556
+Classification,AD,"FDG-PET, flor-",PET images,Deep CNN,10-fold CV,0.96 (AD vs,"AD = 139,"
+"",,betapir PET,,,,HC),"pMCI = 79,"
+"",,,,,,,"sMCI = 92,"
+"",,,,,,,"HC = 182,"
+"",,,,,,,total = 492
+Purpose,Disorder,Modality,Feature,Classifier,Validation,Overall accuracy,Number of
+"",,,,,,,subjects
+Classification,AD,FDG-PET,Intensity of PET,SVM,LOOCV,0.9788 (AD vs,"AD = 81,"
+"",,,,,,HC),"pMCI = 29,"
+"",,,,,,,"HC = 61,"
+"",,,,,,,total = 171
+Classification,AD/MCI,"MRI, FDG-PET","Volume, mean",ELM,10-fold CV,0.971 (AD vs,"AD = 51,"
+"",,,"intensity, CSF",,,"HC), 0.871","pMCI = 99,"
+"",,,"features (p-tau,",,,(MCI vs HC),"HC = 52,"
+"",,,"t-tau, Aβ42)",,,,total = 202
+Classification,AD/MCI,"T1WI, FDG-",3D image patch,CNN,10-fold CV,0.933 (AD vs,"AD = 93,"
+"",,PET,,,,"HC), 0.83","pMCI = 204,"
+"",,,,,,"(sMCI vs NC),","HC = 100,"
+"",,,,,,0.64 (pMCI vs,total = 397
+"",,,,,,NC),
+Classification,AD,"MRI, PET,",FDG-PET,SVM,LOOCV,0.93 (AD vs,"AD = 20,"
+"",,SPECT,,,,HC),"HC = 18,"
+"",,,,,,,total = 38
+Classification,AD/MCI,MRI,Kaggle-neu-,SVM,5-fold CV,0.96 (AD vs,"AD = 44,"
+"",,,roimaging-,,,"HC), 0.9","cMCI = 44,"
+"",,,challenge:,,,"(cMCI vs AD),","ncMCI = 44,"
+"",,,429 features,,,0.78 (ncMCI,"HC = 44,"
+"",,,"(demographic,",,,"vs AD), 0.62",total = 176
+"",,,clinical fea-,,,(ncMCI vs,
+"",,,tures),,,"cMCI), 0.79",
+"",,,,,,"(cMCI vs HC),",
+"",,,,,,0.59 (ncMCI,
+"",,,,,,vs HC),
+Classification,AD/MCI,MRI,GM density map,SVM,Training/test,0.928 (AD vs,"AD = 186,"
+"",,,,,(1/1),"HC), 0.708","cMCI = 167,"
+"",,,,,,"(MCI vs NC),","sMCI = 226,"
+"",,,,,,0.64 (sMCI vs,"HC = 226,"
+"",,,,,,"cMCI), 0.657",total = 805
+"",,,,,,(MCI vs AD),
+Classification,AD,MPRAGE,Image intensity,CNN,Training/test,0.977 (AD vs,"AD = 98,"
+"",,,,,(1/1),HC),"HC = 98,"
+"",,,,,,,total = 196
+Detection,AD,"DTI, DKI","DTI, DKI meas-",SVM,LOOCV,0.96 (AD vs,"AD = 27,"
+"",,,ures,,,HC),"HC = 26,"
+"",,,,,,,total = 53
+Diagnosis,AD,DTI,FA-ICA,Elastc net,10-fold CV,0.85 (AD vs,"AD = 77,"
+"",,,,,,HC),"HC = 173,"
+"",,,,,,,total = 250
+Purpose Disorder,Modality,Feature,Classifier
+Diagnosis AD,"MRI, FDG-PET",Hippocampal,SVM
+"",,texture,
+Diagnosis AD,"MRI, PET",HYDRA,SVM
+Identification AD,MRI,Morphological,"Naïve Bayes,"
+"",,measures,logistic regres
+"",,,"sion, SVM"
+Prediction AD/MCI,"FDG-PET, flor-",PET images,Deep CNN
+"",betapir PET,,
+Prediction AD,MRI,Total GM vol-,tgLASSO
+"",,ume,
+N/A indicates information was not available or could not be found,,,
+a Internal: subjects were recruited from institutional and/or public through media,,,

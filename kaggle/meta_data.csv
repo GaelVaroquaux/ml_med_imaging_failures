@@ -1,0 +1,14 @@
+Name,				    Prize,  Private fraction,	Organ,	    Task,	    Metric, URL
+mlsp-2014-mri,			    0 (workshop participation),	.99,	Brain,	    Diagnostic,	    AUC,    https://www.kaggle.com/c/mlsp-2014-mri
+mri2018,			    0,	    .70,		Brain,	    NA,		    NA,	    https://www.kaggle.com/c/mri2018
+trabit2019-imaging-biomarkers,	    0,	    .50,		Brain,	    Diagnostic,	    MAE,    https://www.kaggle.com/c/trabit2019-imaging-biomarkers/
+mci-prediction,			    0 (publication),	.50,	Brain,	    Diagnostic,	    Acc,    https://www.kaggle.com/c/mci-prediction
+prostate-cancer,		    0,	    .70,		Prostate,   Segmentation,   AUC,    https://www.kaggle.com/c/prostate-cancer
+uninadmc-bls-2,			    0,	    .90,		Breast,	    Segmentation,   F,	    https://www.kaggle.com/c/uninadmc-bls-2
+mlcontest,			    0,	    .50,		Brain,	    Diagnostic,	    Acc,    https://www.kaggle.com/c/mlcontest
+ultrasound-nerve-segmentation,	    100000, .80,		Neck,	    Segmentation,   Dice,   https://www.kaggle.com/c/ultrasound-nerve-segmentation
+siim-acr-pneumothorax-segmentation, 30000,  .99,		Lung,	    Segmentation,   Dice,   https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation
+mrf-hse-shad-2018,		    0,	    NA,			NA,	    NA,		    NA,	    https://www.kaggle.com/c/mrf-hse-shad-2018
+xray-lung-segmentation,		    0,	    NA,			NA,	    NA,		    NA,	    https://www.kaggle.com/c/xray-lung-segmentation
+data-science-bowl-2017,		    1000000, .99,		Lung,	    Diagnostic,	    Logloss, https://www.kaggle.com/c/data-science-bowl-2017
+

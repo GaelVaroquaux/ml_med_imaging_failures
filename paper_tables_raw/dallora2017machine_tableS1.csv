@@ -1,0 +1,90 @@
+Title,Study,Conditions,Database Name,Data Analysis,Best Accuracy
+"",,Studied,,Technique,Achieved
+Automated hippocampal shape analysis predicts the onset of,"Costafreda, S. et al.","AD, MCI",AddNeuroMed,ML,85.0%
+dementia in mild cognitive impairment,[29],,,,
+Different multivariate techniques for automated classification,"Aguilar, C. et al. [25]","AD, MCI",AddNeuroMed,ML,84.9%
+of MRI data in Alzheimer's disease and mild cognitive,,,,,
+impairment,,,,,
+An MRI-derived definition of MCI-to-AD conversion for long-,"Aksu, Y. et al. [26]","AD, MCI",ADNI,ML,83.00%
+"term, automatic prognosis of MCI patients",,,,,
+Discriminant analysis of longitudinal cortical thickness,"Li, Y. et al. [39]","AD, MCI",ADNI,ML,81.7%
+changes in Alzheimer's disease using dynamic and network,,,,,
+features,,,,,
+BrainAGE in Mild Cognitive Impaired Patients: Predicting the,"Gaser, C. et al. [53]","AD, MCI",ADNI,ML,81.0%
+Conversion to Alzheimer's Disease,,,,,
+Domain Transfer Learning for MCI Conversion Prediction,"Cheng, B. et al. [28]","AD, MCI",ADNI,ML,79.4%
+Predicting future clinical changes of MCI patients using,"Zhang, D. et al. [52]","AD, MCI",ADNI,ML,78.4%
+longitudinal and multimodal biomarkers,,,,,
+Deep learning-based feature representation for AD/MCI,"Suk, Heung-Il; Shen,","AD, MCI",ADNI,ML,75.80%
+classification,Dinggang [51],,,,
+Anatomically constrained weak classifier fusion for early,"Komlagan, M. et al.","AD, MCI",ADNI,ML,75.6%
+detection of Alzheimer's disease,[37],,,,
+Hierarchical interactions model for predicting Mild Cognitive,"Li, H. et al. [38]","AD, MCI",ADNI,ML,74.76%
+Impairment (MCI) to Alzheimer's Disease (AD) conversion,,,,,
+Machine learning framework for early MRI-based Alzheimer's,"Moradi, E. et al. [40]","AD, MCI",ADNI,ML,74.74%
+conversion prediction in MCI subjects,,,,,
+Automatic Prediction of Conversion from Mild Cognitive,"Nho, K. et al. [41]","AD, MCI",ADNI,ML,72.3%
+Impairment to Probable Alzheimer's Disease using Structural,,,,,
+Magnetic Resonance Imaging,,,,,
+Manifold population modeling as a neuro-imaging biomarker:,"Guerrero, R. et al. [34]","AD, MCI",ADNI,ML,71.0%
+application to ADNI and ADNI-GO,,,,,
+Bioprofile analysis: A new approach for the analysis of,"Escudero, J. et al. [33]","AD, MCI",ADNI,ML,68.2%
+biomedical data in Alzheimer's disease,,,,,
+Inter-modality relationship constrained multi-modality multi-,"Liu, F. et al. [50]","AD, MCI",ADNI,ML,67.83%
+task feature selection for Alzheimer's Disease and mild,,,,,
+cognitive impairment identification,,,,,
+Identification of conversion from mild cognitive impairment to,"Cui, Y. et al. [32]","AD, MCI",ADNI,ML,67.13%
+Alzheimer's disease using multivariate predictors,,,,,
+Accurate multimodal probabilistic prediction of conversion to,"Young, J. et al. [45]","AD, MCI",ADNI,ML,66.7%
+Alzheimer's disease in patients with mild cognitive impairment,,,,,
+Magnetic resonance imaging biomarkers for the early,"Salvatore, C. et al. [43]","AD, MCI",ADNI,ML,66.0%
+diagnosis of Alzheimer's disease: a machine learning,,,,,
+approach,,,,,
+How early can we predict Alzheimer's disease using,"Adaszewski, S. et al.","AD, MCI",ADNI,ML,63.7%
+computational anatomy?,[24],,,,
+Evaluation of Plasma Proteomic Data for Alzheimer Disease,"Llano, D. et al. [47]","AD, MCI",ADNI,ML,62.0%
+State Classification and for the Prediction of Progression From,,,,,
+Mild Cognitive Impairment to Alzheimer Disease,,,,,
+Automatic classification of patients with Alzheimer's disease,"Cuingnet, R. et al. [31]","AD, MCI",ADNI,ML,-
+from structural MRI: a comparison of ten methods using the,,,,,
+ADNI database,,,,,
+Semi-supervised learning in MCI-to-ad conversion prediction -,"Moradi, E. et al. [48]","AD, MCI",ADNI,ML,-
+"” When is unlabeled data useful?""",,,,,
+Sparse learning and stability selection for predicting MCI to,"Ye, J. et al. [44]","AD, MCI",ADNI,ML,-
+AD conversion using baseline ADNI data,,,,,
+Predictive markers for AD in a multi-modality framework: an,"Hinrichs, C. et al. [35]","AD, MCI",ADNI,ML,-
+analysis of MCI progression in the ADNI population,,,,,
+Predicting conversion from MCI to AD with FDG-PET brain,"Cabral, C. et al. stages","AD, MCI",ADNI,ML,-
+images at different prodromal,[27],,,,
+Derivation of a new ADAS-cog composite using tree-based,"Llano, D. et al. [56]","AD, MCI",ADNI,ML,-
+multivariate analysis: Prediction of conversion from mild,,,,,
+cognitive impairment to alzheimer disease,,,,,
+Applying Automated MR-Based Diagnostic Methods to the,"Kloeppel, S. et al. [36]","AD, MCI","ADNI, Freiburg",ML,65.0%
+Memory Clinic: A Prospective Study,,,,,
+Prediction of conversion from mild cognitive impairment to,"Chen, R. et al. [62]","AD, MCI","ADNI, PCD",ML,81%
+Alzheimer disease based on bayesian data mining with,,,,,
+ensemble learning,,,,,
+Automated detection of brain atrophy patterns based on MRI,"Plant, C.  et al. [42]","AD, MCI",Clinic of Psychiatry at the Ludwig,ML,95.83%
+for the prediction of Alzheimer's disease,,,Maximilian University of Munich,,
+An event-based model for disease progression and its,"Fonteijn, H.M. et al.","AD, HD",Cognitive Disorders Clinic at the,ML,-
+application in familial Alzheimer's disease and Huntington's,[61],,National Hospital for Neurology,,
+disease,,,"and Neurosurgery,",,
+"",,,Multidisciplinary HD Clinic at the,,
+"",,,National Hospital for Neurology,,
+"",,,and Neurosurgery,,
+Clinical Decision Trees for Predicting Conversion from,"Ritchie, Lesley J.;","AD, CIND",CSHA,ML,70.2%
+Cognitive Impairment No Dementia (CIND) to Dementia in a,"Tuokko, Holly [57]",,,,
+Longitudinal Population-Based Study,,,,,
+Neural networks for longitudinal studies in Alzheimer's disease,"Tandon, R. et al [65]","AD, MCI",LAARC,ML,87.0%
+Morphological hippocampal markers for automated detection,"Ferrarini, L. et al. [46]","AD, MCI","Laboratory of Epidemiology,",ML,80.0%
+of alzheimer's disease and mild cognitive impairment,,,"Neuroimaging, and Telemedicine,",,
+converters in magnetic resonance images,,,at the IRCSS San Giovanni di,,
+"",,,Dio-FBF in Brescia,,
+A comparison of three brain atlases for MCI prediction,"Ota, K. et al. [49]","AD, MCI",SEAD-J,ML,77.9%
+Multiplexed immunoassay panel identifies novel CSF,Craig S. et al. [30],"AD, MCI",WU-ADRC,ML,-
+biomarkers for Alzheimer's disease diagnosis and prognosis,,,,,
+"Modeling screening, prevention, and delaying of Alzheimer's","Furiak, N.M. et al. [73]",AD,-,MS,No Prognostic
+disease: An early-stage decision analytic model,,,,,accuracy
+Estimation and validation of a multiattribute model of,"Stallard, E. et al. [74]",AD,Predictor's Study (1989-2001),MS,No Prognostic
+alzheimer disease progression,,,and Predictor's Study 2 (1997-,,accuracy
+"",,,2007),,
