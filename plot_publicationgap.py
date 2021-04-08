@@ -35,14 +35,18 @@ plt.text(2015.9, 3.95, 'Kaggle lung\n  challenge', #rotation=90,
 
 
 plt.plot(df_counts['year'], df_counts['lung_vs_all_medical'],
-         label='lung, medical', color='C0', linestyle='-')
+         label='lung, medical', color='C0', linestyle='-',
+         linewidth=2)
 plt.plot(df_counts['year'], df_counts['lung_vs_all_ai'],
-         label='lung, AI', color='C0', linestyle='--')
+         label='lung, AI', color='C0', linestyle='--',
+         linewidth=2)
 
 plt.plot(df_counts['year'], df_counts['breast_vs_all_medical'],
-         label='breast, medical', color='C1', linestyle='-')
+         label='breast, medical', color='C1', linestyle='-',
+         linewidth=2)
 plt.plot(df_counts['year'], df_counts['breast_vs_all_ai'],
-         label='breast, AI', color='C1', linestyle='--')
+         label='breast, AI', color='C1', linestyle='--',
+         linewidth=2)
 
 
 plt.ylim(1, 4)
