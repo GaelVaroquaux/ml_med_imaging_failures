@@ -230,7 +230,7 @@ plt.figure(figsize=(3.8, 3))
 for data_name, marker in symbols.items():
     plt.scatter(df_n_subjects.query(f'origin == "{data_name}"')['Year'],
                 df_n_subjects.query(f'origin == "{data_name}"')['subjects'],
-                marker=marker, c='.2', alpha=.8)
+                marker=marker, c='.2', alpha=.4)
 xs, ys = lowess(df_n_subjects['subjects'], df_n_subjects['Year'],
                 return_sorted=True, frac=.8).T
 
@@ -268,7 +268,7 @@ for task in colors.keys():
     for data_name, marker in symbols.items():
         plt.scatter(task_df.query(f'origin == "{data_name}"')['Year'],
                     task_df.query(f'origin == "{data_name}"')['acc'],
-                    marker=marker, c=colors[task], alpha=.8)
+                    marker=marker, c=colors[task], alpha=.5)
 
     xs, ys = lowess(task_df['acc'], task_df['Year'],
                     return_sorted=True, frac=.8).T
@@ -299,7 +299,7 @@ for task in colors.keys():
     for data_name, marker in symbols.items():
         plt.scatter(task_df.query(f'origin == "{data_name}"')['subjects'],
                     task_df.query(f'origin == "{data_name}"')['acc'],
-                    marker=marker, c=colors[task], alpha=.8)
+                    marker=marker, c=colors[task], alpha=.5)
 
 
     xs, ys = lowess(task_df['acc'], task_df['subjects'].astype(float),
