@@ -135,6 +135,9 @@ for i, name in enumerate(names):
         vmin = min(-1.01 * improvement, vmin)
         vmax += .1 *(vmax - vmin)
         rwidth = vmax - vmin
+        if i == 1:
+            vmin += -.05
+            vmax += -.05
 
         ax.axvline(-improvement, ymax=.82, ymin=.02, color=my_brown)
 
@@ -159,7 +162,7 @@ for i, name in enumerate(names):
             plt.text(-improvement, .64,
                     ' Between overall top model\n'
                     ' and 10% best',
-                    color=(.5, .2, 0), size=12)
+                    color=(.5, .2, 0), size=(11 if i == 1 else 12))
             plt.text(np.median(discrepancy), -.27,
                     ' Between public and private sets',
                     color=my_blue, size=12, ha='center')
