@@ -177,7 +177,7 @@ for i, name in enumerate(names):
         xticks, _ = plt.xticks()
         tick_space = min(-min(xticks), max(xticks))
         plt.xticks([-tick_space, 0, tick_space], size=9, color='.5')
-        if i == 1:
+        if i == 0:
             plt.title('Observed improvement in score ',
                        size=13, pad=5)
 
