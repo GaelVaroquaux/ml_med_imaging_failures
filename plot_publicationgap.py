@@ -62,19 +62,19 @@ plt.yticks((1, 2, 3, 4), ('1%', '2%', '3%', '4%'))
 #           borderaxespad=.2,
 #           )
 plt.text(2019.1, 3.7,
-         'lung-cancer studies\npublished in medical\noncology',
+         'lung-cancer studies\npublished in AI',
          color='C0', va='center', size=12.5)
 
-plt.text(2019.1, 2.4,
-         'breast-cancer studies\npublished in medical\noncology',
+plt.text(2019.1, 2.43,
+         'breast-cancer studies\npublished in AI',
          color='C1', va='center', size=12.5)
 
 plt.text(2019.1, 1.4,
-         'lung-cancer studies\npublished in AI',
+         'lung-cancer studies\npublished in medical\noncology',
          color='C0', va='bottom', size=12.5)
 
 plt.text(2019.1, 1.3,
-         'breast-cancer studies\npublished in AI',
+         'breast-cancer studies\npublished in medical\noncology',
          color='C1', va='top', size=12.5)
 
 ax = plt.gca()
