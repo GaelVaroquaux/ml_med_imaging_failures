@@ -160,12 +160,15 @@ for i, name in enumerate(names):
 
         if i % 2:
             plt.text(-improvement, .64,
-                    ' Between overall top model\n'
-                    ' and 10% best',
+                    ' Improvement of\n top model'
+                    ' on 10% best',
                     color=(.5, .2, 0), size=(11 if i == 1 else 12))
-            plt.text(np.median(discrepancy), -.27,
-                    ' Between public and private sets',
+            plt.text(.4 * np.median(discrepancy) + .6 * vmin, -.24,
+                    ' Evaluation noise',
                     color=my_blue, size=12, ha='center')
+            plt.text(.1 * vmax, -.17,
+                    ' between public\n         and private sets',
+                    color=my_blue, size=9, ha='left')
         #plt.text(.75, .6, 'private > public', size=10,
         #         transform=ax.transAxes)
         #plt.text(.01, .6, 'public > private', size=10,

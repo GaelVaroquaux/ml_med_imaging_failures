@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug 17 08:31:50 2020
-
-@author: vcheplyg
+Plot the performances reported in publications
 """
 
 
@@ -364,4 +362,19 @@ plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.17)
 plt.savefig('performance_vs_subjects_time.pdf', transparent=True)
 
+# Compute multivariate regression to explain performance as a function of
+# time vs sample size
 
+from statsmodels.formula.api import ols
+
+for task in colors.keys():
+    if not task in ('pMCI vs sMCI', 'AD vs HC'):
+        continue
+    task_df = df_task.query(f'(task == "{task}")')
+    # task_df['Year'] /= 1000
+    # Note: in statsmodels, the coefficients already account for the
+    # scaling of the columns, hence they can readily be compared
+
+    model = ols("acc ~ subjects + Year", task_df).fit()
+    print(task)
+    print(model.summary())
