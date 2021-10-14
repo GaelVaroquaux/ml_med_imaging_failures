@@ -224,7 +224,7 @@ colors = {
 }
 
 # number of subjects per year
-plt.figure(figsize=(3.8, 3))
+plt.figure(figsize=(3.8, 3.2))
 for data_name, marker in symbols.items():
     plt.scatter(df_n_subjects.query(f'origin == "{data_name}"')['Year'],
                 df_n_subjects.query(f'origin == "{data_name}"')['subjects'],
@@ -239,15 +239,16 @@ plt.ylim(ymin=20)
 plt.xlim(xmin=2004, xmax=2019.4)
 plt.xticks([2006, 2010, 2014, 2018], ['2006', '2010', '2014', '2018'])
 
-plt.ylabel('Number of subjects in study    ', size=14)
+plt.ylabel('  Number of subjects in study', size=14)
 plt.xlabel("Publication year", size=14)
 
 legend_artists = [mlines.Line2D([], [], color='.2', marker=v, linestyle='None',
                                 markersize=4, label=k, mew=2)
                   for k, v in symbols.items()]
-plt.legend(handles=legend_artists, loc='upper left',
+plt.legend(handles=legend_artists, #loc='upper left',
            title='Review article', fontsize=9, handlelength=1,
-           handletextpad=.2)
+           #handletextpad=.2)
+           loc=(-.095, 1.05), ncol=2, handletextpad=.1)
 
 #ax = plt.gca()
 #ax.add_artist(legend1)
@@ -259,7 +260,7 @@ plt.savefig('subjects_vs_year.pdf', transparent=True)
 
 
 # Plot the accuracy vs Year for the most common task
-plt.figure(figsize=(3.8, 3))
+plt.figure(figsize=(3.8, 3.2))
 for task in colors.keys():
     task_df = df_task.query(f'task == "{task}"')
 
@@ -278,11 +279,11 @@ plt.ylim(ymax=1)
 plt.xlim(xmin=2004, xmax=2019.4)
 plt.xticks([2006, 2010, 2014, 2018], ['2006', '2010', '2014', '2018'])
 
-legend1 = plt.legend(loc='lower left')
+plt.legend(loc=(.05, 1.07), ncol=2)
 
 
 plt.xlabel("Publication year", size=14)
-plt.ylabel("Reported prediction accuracy        ", size=14)
+plt.ylabel("Reported prediction accuracy ", size=14)
 
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.16)
@@ -290,7 +291,7 @@ plt.savefig('performance_vs_year.pdf', transparent=True)
 
 
 # Plot the accuracy vs # subjects for the most common task
-plt.figure(figsize=(3.8, 3))
+plt.figure(figsize=(3.8, 3.2))
 for task in colors.keys():
     task_df = df_task.query(f'task == "{task}"')
     task_df = task_df.dropna()
@@ -308,10 +309,10 @@ for task in colors.keys():
 ax = plt.gca()
 ax.set_xscale('log')
 plt.xlim(28, 1400)
-plt.legend(loc='lower left')
+plt.legend(loc=(0.05, 1.05), ncol=2)
 
 plt.xlabel('Number of subjects in study', size=14)
-plt.ylabel("Reported prediction accuracy          ", size=14)
+plt.ylabel("Reported prediction accuracy  ", size=14)
 
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.16)
@@ -326,7 +327,7 @@ time_symbols = {
     "year <= 2013": ("<", ":"),
 }
 
-plt.figure(figsize=(3.8, 3))
+plt.figure(figsize=(3.8, 3.2))
 for task in colors.keys():
     if not task in ('pMCI vs sMCI', 'AD vs HC'):
         continue
@@ -355,8 +356,8 @@ plt.text(4.55e2, .64, 'pMCI vs\nsMCI', color=colors['pMCI vs sMCI'], size=13)
 plt.text(3e2, .87, 'AD vs HC', color=colors['AD vs HC'], size=13)
 
 plt.xlabel('Number of subjects in study', size=14)
-plt.ylabel("Reported prediction acuracy          ", size=14)
-plt.legend(loc='lower left')
+plt.ylabel("Reported prediction acuracy ", size=14)
+plt.legend(loc=(-.105, 1.07), ncol=2, handletextpad=.5, columnspacing=1)
 
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.17)
@@ -367,14 +368,35 @@ plt.savefig('performance_vs_subjects_time.pdf', transparent=True)
 
 from statsmodels.formula.api import ols
 
+import matplotlib.ticker as mticker
+
+# My axis should display 10⁻¹ but you can switch to e-notation 1.00e+01
+def log_tick_formatter(val, pos=None):
+    return f"$10^{{{int(val)}}}$"  # remove int() if you don't use MaxNLocator
+    # return f"{10**val:.2e}"      # e-Notation
+
+
 for task in colors.keys():
     if not task in ('pMCI vs sMCI', 'AD vs HC'):
         continue
     task_df = df_task.query(f'(task == "{task}")')
+    task_df['log_subjects'] = np.log(task_df['subjects'])
     # task_df['Year'] /= 1000
     # Note: in statsmodels, the coefficients already account for the
     # scaling of the columns, hence they can readily be compared
 
-    model = ols("acc ~ subjects + Year", task_df).fit()
+    model = ols("acc ~ log_subjects + Year", task_df).fit()
     print(task)
     print(model.summary())
+
+    fig = plt.figure(figsize=(4, 3))
+    ax = fig.add_subplot(projection='3d')
+
+    ax.scatter(task_df['log_subjects'], task_df['Year'], task_df['acc'],
+               marker='o')
+    ax.xaxis.set_major_formatter(mticker.FuncFormatter(log_tick_formatter))
+    ax.xaxis.set_major_locator(mticker.MaxNLocator(integer=True))
+
+    ax.set_xlabel('# subjects')
+    ax.set_ylabel('Year')
+    ax.set_zlabel('accuracy')
