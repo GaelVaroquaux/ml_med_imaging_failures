@@ -164,13 +164,10 @@ for i, name in enumerate(names):
         vmin = stats.scoreatpercentile(discrepancy, 5)
         vmax = stats.scoreatpercentile(discrepancy, 95)
         center = np.median(discrepancy)
-        width = 1.05 * max(vmax - center, center - vmin)
-        vmin = center - 3.3 * width
-        vmax = center + width
+        width = .9 * (.8 * (vmax - vmin) + .2 * max(vmax - center, center - vmin))
+        vmin = center - 2.15 * width
+        vmax = center + .8 * width
         rwidth = vmax - vmin
-        #if i == 1:
-        #    vmin += -.05
-        #    vmax += -.05
 
         ax.axvline(-improvement, ymax=.98, ymin=.02, color=my_brown,
                    linewidth=3)
@@ -214,11 +211,11 @@ for i, name in enumerate(names):
         #plt.text(.01, .6, 'public > private', size=10,
         #         transform=ax.transAxes)
 
+        ax.xaxis.tick_top()
+        ax.xaxis.set_major_formatter(plt.FuncFormatter(formatter))
         plt.xlim(vmin, vmax)
         plt.ylim(.4, -.35)
 
-        ax.xaxis.tick_top()
-        ax.xaxis.set_major_formatter(plt.FuncFormatter(formatter))
         plt.tight_layout(rect=(0.02, -.11, 1.0, .93))
         xticks, _ = plt.xticks()
         tick_space = min(-min(xticks), max(xticks))
@@ -227,7 +224,7 @@ for i, name in enumerate(names):
         #    plt.title('Observed improvement in score ',
         #               size=13, pad=5)
 
-        plt.subplots_adjust(left=.01, bottom=0.25, right=.95, top=.86)
+        plt.subplots_adjust(left=.001, bottom=0.25, right=.95, top=.86)
 
         plt.savefig(f'figures/{name}_hist.pdf', transparent=True)
 
