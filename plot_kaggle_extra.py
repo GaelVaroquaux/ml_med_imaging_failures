@@ -24,9 +24,11 @@ names = [
     #'uninadmc-bls-2', #scraped in 2020, few samples
     '2021-prostate',
     '2021-rsna-pneumonia',
-    '2021-rsna-intracranial',     #NOTE: performance metric is inverted
+    '2021-rsna-intracranial',     #NOTE: performance metric is inverted,
+                                   # but we account for that later by
+                                   # inverting it
     '2021-siim-covid19',
-    '2021-vinbigdata-chest'
+    #'2021-vinbigdata-chest'
 ]
 
 
@@ -60,6 +62,11 @@ for i, name in enumerate(names):
     scores = pd.merge(public, private)
     scores = scores.query('public > 0')
 
+    # To know whether the score is increase or not
+    sign = np.sign(private.iloc[0]['private'] - private.iloc[1]['private'])
+    scores['private'] = sign * scores['private']
+    scores['public'] = sign * scores['public']
+
     print(f'{name}: public {public.shape[0]} entries | private {private.shape[0]} entries | merged {scores.shape[0]}')
     data[name] = scores
 
@@ -82,14 +89,12 @@ for i, name in enumerate(names):
 
     # A second figure: the histogram of the differences
 
-    # To know whether the score is increase or not
-    sign = np.sign(private.iloc[0]['private'] - private.iloc[1]['private'])
 
-    discrepancy = sign * scores.eval('private - public')
+    discrepancy = scores.eval('private - public')
 
     # Good improvement:
-    improvement = ((sign*scores['private']).max()
-                    - stats.scoreatpercentile(sign*scores['private'], 90))
+    improvement = ((scores['private']).max()
+                    - stats.scoreatpercentile(scores['private'], 90))
 
     with seaborn.axes_style("whitegrid"):
         plt.figure(figsize=(3.6, 1.2))
@@ -149,15 +154,24 @@ for i, name in enumerate(names):
         #         size=10)
 
         # Size of our plot
-        vmin = stats.scoreatpercentile(discrepancy, 4)
-        vmax = stats.scoreatpercentile(discrepancy, 99)
+        if name == '2021-siim-covid19':
+            # This dataset has a small number of discrete values,
+            # computing percentiles does not work well
+            vmin = stats.scoreatpercentile(discrepancy, 4)
+            vmax = stats.scoreatpercentile(discrepancy, 99)
+        elif name == '2021-rsna-intracranial':
+            vmin = stats.scoreatpercentile(discrepancy, 6)
+            vmax = stats.scoreatpercentile(discrepancy, 95)
+        else:
+            vmin = stats.scoreatpercentile(discrepancy, 6)
+            vmax = stats.scoreatpercentile(discrepancy, 97)
         vmin -= .1 *(vmax - vmin)
         vmin = min(-1.01 * improvement, vmin)
         vmax += .1 *(vmax - vmin)
         rwidth = vmax - vmin
-        if i == 1:
-            vmin += -.05
-            vmax += -.05
+        #if i == 1:
+        #    vmin += -.05
+        #    vmax += -.05
 
         ax.axvline(-improvement, ymax=.82, ymin=.02, color=my_brown)
 
@@ -178,7 +192,7 @@ for i, name in enumerate(names):
                     length_includes_head=True, color=my_blue)
 
 
-        if i % 2:
+        if i % 2 and False:
             plt.text(-improvement, .64,
                     ' Improvement of\n top model'
                     ' on 10% best',
@@ -203,9 +217,9 @@ for i, name in enumerate(names):
         xticks, _ = plt.xticks()
         tick_space = min(-min(xticks), max(xticks))
         plt.xticks([-tick_space, 0, tick_space], size=9, color='.5')
-        if i == 0:
-            plt.title('Observed improvement in score ',
-                       size=13, pad=5)
+        #if i == 0:
+        #    plt.title('Observed improvement in score ',
+        #               size=13, pad=5)
 
 
         plt.savefig(f'figures/{name}_hist.pdf', transparent=True)
