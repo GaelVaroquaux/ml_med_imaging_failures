@@ -14,14 +14,14 @@ my_blue = (.1, .4, .7)
 my_brown = (.5, .2, 0)
 
 names = [
-    #'data-science-bowl-2017',
-    #'mlsp-2014-mri',
-    #'siim-acr-pneumothorax-segmentation',
-    #'ultrasound-nerve-segmentation',
     #'trabit2019-imaging-biomarkers',  #scraped in 2020, few samples
     #'prostate-cancer',  #scraped in 2020, few samples
     #'mlcontest',    #scraped in 2020, few samples
     #'uninadmc-bls-2', #scraped in 2020, few samples
+    'data-science-bowl-2017',
+    'mlsp-2014-mri',
+    'siim-acr-pneumothorax-segmentation',
+    'ultrasound-nerve-segmentation',
     '2021-prostate',
     '2021-rsna-pneumonia',
     '2021-rsna-intracranial',     #NOTE: performance metric is inverted,
@@ -33,6 +33,10 @@ names = [
 
 
 notes = [
+    'data science bowl',
+    'mslp MRI (schizo)',
+    'ultrasound nerve segmentation',
+    'pneumothorax',
     '2021 prostate',
     '2021 pneumonia',
     '2021 intracrancial, INVERTED METRIC',     #NOTE: performance metric is inverted
@@ -97,10 +101,13 @@ for i, name in enumerate(names):
                     - stats.scoreatpercentile(scores['private'], 90))
 
     with seaborn.axes_style("whitegrid"):
-        plt.figure(figsize=(3.6, 1.2))
+        plt.figure(figsize=(4.37, 1.2))
 
-        #seaborn.swarmplot(discrepancy, orient='h', size=2,
+        #seaborn.swarmplot(discrepancy, orient='h', size=1,
         #                palette=[(.15, .3, .6), ], )
+        seaborn.stripplot(discrepancy, orient='h', size=2,
+                        alpha=.5 * 300 / len(discrepancy),
+                        palette=[(.15, .3, .6), ], jitter=.15)
 
         seaborn.set_context(rc={"lines.linewidth": .5, "lines.color": 'k'})
         #seaborn.violinplot(discrepancy, orient='h', fliersize=0,
@@ -109,11 +116,11 @@ for i, name in enumerate(names):
         #                    inner=None)
         plt.violinplot(discrepancy, vert=False, positions=[0,])
 
-        seaborn.set_context(rc={"lines.linewidth": 2,
+        seaborn.set_context(rc={"lines.linewidth": 3,
                                 "lines.edgecolor": (.1, .4, .7)})
         ax = seaborn.boxplot(discrepancy,
                             orient='h',
-                            whis=[5, 95], width=.45, fliersize=0,
+                            whis=[5, 95], width=.55, fliersize=0,
                             palette=[my_blue],
                             )
         # Move the swarmplot under the boxplot
@@ -154,62 +161,61 @@ for i, name in enumerate(names):
         #         size=10)
 
         # Size of our plot
-        if name == '2021-siim-covid19':
-            # This dataset has a small number of discrete values,
-            # computing percentiles does not work well
-            vmin = stats.scoreatpercentile(discrepancy, 4)
-            vmax = stats.scoreatpercentile(discrepancy, 99)
-        elif name == '2021-rsna-intracranial':
-            vmin = stats.scoreatpercentile(discrepancy, 6)
-            vmax = stats.scoreatpercentile(discrepancy, 95)
-        else:
-            vmin = stats.scoreatpercentile(discrepancy, 6)
-            vmax = stats.scoreatpercentile(discrepancy, 97)
-        vmin -= .1 *(vmax - vmin)
-        vmin = min(-1.01 * improvement, vmin)
-        vmax += .1 *(vmax - vmin)
+        vmin = stats.scoreatpercentile(discrepancy, 5)
+        vmax = stats.scoreatpercentile(discrepancy, 95)
+        center = np.median(discrepancy)
+        width = 1.05 * max(vmax - center, center - vmin)
+        vmin = center - 3.3 * width
+        vmax = center + width
         rwidth = vmax - vmin
         #if i == 1:
         #    vmin += -.05
         #    vmax += -.05
 
-        ax.axvline(-improvement, ymax=.82, ymin=.02, color=my_brown)
+        ax.axvline(-improvement, ymax=.98, ymin=.02, color=my_brown,
+                   linewidth=3)
 
-        ax.arrow(-.5*improvement, .17, -.5*improvement + .01 * rwidth, 0,
+        ax.arrow(-.5*improvement, .29, -.5*improvement + .01 * rwidth, 0,
                  head_width=.05, head_length=5e-3 * rwidth,
-                 length_includes_head=True, color=my_brown)
-        ax.arrow(-.5*improvement, .17, .5*improvement - .01 * rwidth, 0,
+                 length_includes_head=True, color=my_brown, linewidth=2)
+        ax.arrow(-.5*improvement, .29, .5*improvement - .01 * rwidth, 0,
                  head_width=.05, head_length=5e-3 * rwidth,
-                 length_includes_head=True, color=my_brown)
+                 length_includes_head=True, color=my_brown, linewidth=2)
 
         bias = np.median(discrepancy)
         if abs(bias) > .005 * rwidth:
-            ax.arrow(.5*bias, -.17, -.5*abs(bias) + .01 * rwidth, 0,
+            ax.arrow(.5*bias, -.23, -.5*abs(bias) + .01 * rwidth, 0,
                     head_width=.05, head_length=5e-3 * rwidth,
-                    length_includes_head=True, color=my_blue)
-            ax.arrow(.5*bias, -.17, .5*abs(bias) - .01 * rwidth, 0,
+                    length_includes_head=True, color=my_blue, linewidth=2)
+            ax.arrow(.5*bias, -.23, .5*abs(bias) - .01 * rwidth, 0,
                     head_width=.05, head_length=5e-3 * rwidth,
-                    length_includes_head=True, color=my_blue)
+                    length_includes_head=True, color=my_blue, linewidth=2)
 
 
-        if i % 2 and False:
-            plt.text(-improvement, .64,
-                    ' Improvement of\n top model'
-                    ' on 10% best',
-                    color=(.5, .2, 0), size=(11 if i == 1 else 12))
-            plt.text(.4 * np.median(discrepancy) + .6 * vmin, -.24,
-                    ' Evaluation noise',
-                    color=my_blue, size=12, ha='center')
+        if name == 'ultrasound-nerve-segmentation':
+            plt.text(-improvement, -.2,
+                    '  Improvement \n  of top model\n'
+                    '  on 10% best', fontweight='bold',
+                    color=(.5, .2, 0), size=11, ha='left',
+                    va='top', linespacing=1.05)
+            plt.text(-improvement, -.38,
+                    ' Winner gap', fontweight='bold',
+                    color=(.5, .2, 0), size=13, ha='left',
+                    va='top')
+            plt.text(.7 * np.median(discrepancy) + .3 * vmax, .51,
+                    ' Evaluation noise', fontweight='bold',
+                    color=my_blue, size=13, ha='center')
             plt.text(.1 * vmax, -.17,
-                    ' between public\n         and private sets',
-                    color=my_blue, size=9, ha='left')
+                    ' between public\n       and private sets',
+                    fontweight='bold',
+                    color=my_blue, size=10, ha='left')
         #plt.text(.75, .6, 'private > public', size=10,
         #         transform=ax.transAxes)
         #plt.text(.01, .6, 'public > private', size=10,
         #         transform=ax.transAxes)
 
         plt.xlim(vmin, vmax)
-        plt.ylim(.68, -.4)
+        plt.ylim(.4, -.35)
 
         ax.xaxis.tick_top()
         ax.xaxis.set_major_formatter(plt.FuncFormatter(formatter))
@@ -221,6 +227,7 @@ for i, name in enumerate(names):
         #    plt.title('Observed improvement in score ',
         #               size=13, pad=5)
 
+        plt.subplots_adjust(left=.01, bottom=0.25, right=.95, top=.86)
 
         plt.savefig(f'figures/{name}_hist.pdf', transparent=True)
 
