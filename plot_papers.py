@@ -356,7 +356,7 @@ plt.text(4.55e2, .64, 'pMCI vs\nsMCI', color=colors['pMCI vs sMCI'], size=13)
 plt.text(3e2, .87, 'AD vs HC', color=colors['AD vs HC'], size=13)
 
 plt.xlabel('Number of subjects in study', size=14)
-plt.ylabel("Reported prediction acuracy ", size=14)
+plt.ylabel("Reported prediction accuracy ", size=14)
 plt.legend(loc=(-.105, 1.07), ncol=2, handletextpad=.5, columnspacing=1)
 
 plt.tight_layout(pad=.01)
