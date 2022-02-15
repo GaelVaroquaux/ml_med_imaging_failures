@@ -226,9 +226,12 @@ colors = {
 # number of subjects per year
 plt.figure(figsize=(3.8, 3.2))
 for data_name, marker in symbols.items():
-    plt.scatter(df_n_subjects.query(f'origin == "{data_name}"')['Year'],
+    year = df_n_subjects.query(f'origin == "{data_name}"')['Year']
+    # Add a bit of jitter to the year
+    year += .4 * np.random.random(size=year.shape) - .2
+    plt.plot(year,
                 df_n_subjects.query(f'origin == "{data_name}"')['subjects'],
-                marker=marker, c='.2', alpha=.4)
+                marker, c='k', mew=1)
 xs, ys = lowess(df_n_subjects['subjects'], df_n_subjects['Year'],
                 return_sorted=True, frac=.8).T
 
@@ -257,6 +260,7 @@ plt.legend(handles=legend_artists, #loc='upper left',
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.16)
 plt.savefig('subjects_vs_year.pdf', transparent=True)
+plt.savefig('subjects_vs_year.eps')
 
 
 # Plot the accuracy vs Year for the most common task
@@ -265,9 +269,13 @@ for task in colors.keys():
     task_df = df_task.query(f'task == "{task}"')
 
     for data_name, marker in symbols.items():
-        plt.scatter(task_df.query(f'origin == "{data_name}"')['Year'],
-                    task_df.query(f'origin == "{data_name}"')['acc'],
-                    marker=marker, c=colors[task], alpha=.5)
+        year = task_df.query(f'origin == "{data_name}"')['Year']
+        # Add a bit of jitter to the year
+        year += .4 * np.random.random(size=year.shape) - .2
+
+        plt.plot(year,
+                 task_df.query(f'origin == "{data_name}"')['acc'],
+                 marker, c=colors[task], mew=1)
 
     xs, ys = lowess(task_df['acc'], task_df['Year'],
                     return_sorted=True, frac=.8).T
@@ -288,6 +296,7 @@ plt.ylabel("Reported prediction accuracy ", size=14)
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.16)
 plt.savefig('performance_vs_year.pdf', transparent=True)
+plt.savefig('performance_vs_year.eps')
 
 
 # Plot the accuracy vs # subjects for the most common task
@@ -317,6 +326,7 @@ plt.ylabel("Reported prediction accuracy  ", size=14)
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.16)
 plt.savefig('performance_vs_subjects.pdf', transparent=True)
+plt.savefig('performance_vs_subjects.eps')
 
 
 # Plot the accuracy vs # subjects for the most common task at differen

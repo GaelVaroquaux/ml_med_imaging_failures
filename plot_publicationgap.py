@@ -83,3 +83,4 @@ ax.spines['top'].set_visible(False)
 
 plt.tight_layout(pad=.01)
 plt.savefig('figures/publication_counts.pdf', transparent=True)
+plt.savefig('figures/publication_counts.eps')
