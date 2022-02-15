@@ -305,9 +305,9 @@ for task in colors.keys():
     task_df = df_task.query(f'task == "{task}"')
     task_df = task_df.dropna()
     for data_name, marker in symbols.items():
-        plt.scatter(task_df.query(f'origin == "{data_name}"')['subjects'],
-                    task_df.query(f'origin == "{data_name}"')['acc'],
-                    marker=marker, c=colors[task], alpha=.5)
+        plt.plot(task_df.query(f'origin == "{data_name}"')['subjects'],
+                 task_df.query(f'origin == "{data_name}"')['acc'],
+                 marker, c=colors[task], mew=1)
 
 
     xs, ys = lowess(task_df['acc'], task_df['subjects'].astype(float),
@@ -372,6 +372,7 @@ plt.legend(loc=(-.105, 1.07), ncol=2, handletextpad=.5, columnspacing=1)
 plt.tight_layout(pad=.01)
 plt.subplots_adjust(left=.17)
 plt.savefig('performance_vs_subjects_time.pdf', transparent=True)
+plt.savefig('performance_vs_subjects_time.eps')
 
 # Compute multivariate regression to explain performance as a function of
 # time vs sample size
